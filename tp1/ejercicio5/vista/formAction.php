@@ -13,22 +13,22 @@ include "../control/persona.php";
 
 if($_GET){
 
-    $sinEstudios = $_GET["sinEstudios"];
-    $estudiosPrimarios = $_GET["estudiosPrimarios"];
-    $estudioSecundarios = $_GET["estudioSecundarios"];
-
-    $objPersona = new persona($sinEstudios,$estudiosPrimarios,$estudioSecundarios);
-
-    if($objPersona->noTieneEstudios()){
-        echo "no tiene ningun estudio";
+    $radio = $_GET["nivelEstudio"];
+    $select = $_GET["genero"];
+    
+    if($radio == "estPrimario"){
+        echo "Tiene estudios primario";
+    }elseif($radio == "estSecundario"){
+        echo "Tiene estudios secundarios";
+    }else{
+        echo "No tiene estudios";
     }
 
-    if($objPersona->tieneEstudioPrimario()){
-        echo "Tiene el primario terminado";
+    if($select == "Femenino"){
+        echo "Sexo : femenino";
+    }elseif($select == "Masculino"){
+        echo "Sexo : femenino";
     }
 
-    if($objPersona->tieneEstudioSecundario()){
-        echo "Tiene el secundario terminado";
-    }
 
 }

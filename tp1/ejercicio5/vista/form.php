@@ -23,10 +23,12 @@
         <input type="radio" name="nivelEstudio" id="" value="estSecundario">Estudios secundarios
 
         <br>
+
         <select name="genero" id="">
-            <option value="genero">Femenino</option>
-            <option value="genero">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
         </select>
+
         <input type="submit" name="" id="">
 
     </form>
