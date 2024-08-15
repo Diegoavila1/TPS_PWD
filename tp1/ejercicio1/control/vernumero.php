@@ -12,7 +12,7 @@ class vernumero{
         if($num > 0){
             $mensaje = "El numero $num es positivo";
         }elseif($num < 0){
-            $mensaje = "El numero $num es negativo"; 
+            $mensaje = "Elm es negativo"; 
         }else{
             $mensaje = "El numero $num es cero";
         }
