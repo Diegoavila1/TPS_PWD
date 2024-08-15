@@ -6,13 +6,11 @@
         
         $dato = $_GET["numero"];
         $obj = new vernumero($dato);
+
         echo "<br>";
-        echo $obj->mostrarNum();
-        
+        echo $obj->numPositivoNegativo($dato);
     }else{
-
         echo "no ingreso nada";
-
     }
 
     echo "<a href='ejercicio1.php'>Enviar</a>"

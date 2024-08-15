@@ -1,24 +1,15 @@
 <?php
 
 include "../control/mayorEdad.php";
+include "../Utiles/funciones.php";
 
 if($_GET){
 
-    $nombre = $_GET["nombre"];
-    $apellido = $_GET["apellido"];
-    $edad = $_GET["edad"];
-    $direccion = $_GET["direccion"];
-    
-    $objEdad = new mayorEdad($edad);
+    $datos = data_submitted();
 
-    if($objEdad->edadMayor($edad)){
-        echo "Soy mayor de de edad";
-    }else{
-        echo "Soy menor de edad";
-    }
+    $objEdad = new mayorEdad();
+    echo $objEdad->edadMayor($datos);
 
 }else{
-
-    echo "";
-
+    echo "no ingreso nada";
 }

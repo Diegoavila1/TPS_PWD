@@ -9,10 +9,12 @@
 */
 
 include "../control/persona.php";
-
+include "../Utiles/funciones.php";
+$datos = data_submitted();
 
 if($_GET){
-
+    $datos = data_submitted();
+    
     $radio = $_GET["nivelEstudio"];
     $select = $_GET["genero"];
     

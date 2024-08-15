@@ -9,7 +9,7 @@
 
     <form action="formAction.php" method="get">
         <label for="">Ingrese un numero:</label>
-        <input type="number" name="numero" id="">
+        <input type="number" name="num" id="">
         <button type="submit">Enviar</button>
     </form>
 

@@ -3,25 +3,17 @@
 class mayorEdad{
     private $edad;
 
-	public function __construct($edad) {
-
-		$this->edad = $edad;
+	public function __construct() {
 	}
 
-	public function getEdad() {
-		return $this->edad;
-	}
+    public function edadMayor($datos){
+		$edad = $datos["edad"];
 
-	public function setEdad($value) {
-		$this->edad = $value;
-	}
-
-    public function edadMayor(){
-        $esMayorEdad = false;
-        if($this->getEdad() > 17){
-            $esMayorEdad = true;
+        $string = "soy menor de edad";
+        if($edad > 17){
+            $string = "soy mayor de edad";
         }
-        return $esMayorEdad;
+        return $string;
     }
 
 }

@@ -2,28 +2,19 @@
 
 class vernumero{
 
-    private $numero;
-
-    public function __construct($numero) {
-        $this->numero = $numero;
+    public function __construct() {
     }
 
-    public function  getNumero(){
-        return $this->numero;
-    }
-
-    public function setNumero($num){
-        $this->numero = $num;
-    }
     
-    public function mostrarNum(){
+    public function numPositivoNegativo($datos){
+        $num = $datos["num"];
 
-        if($this->getNumero() > 0){
-            $mensaje = "El numero {$this->getNumero()} es positivo";
-        }elseif($this->getNumero() < 0){
-            $mensaje = "El numero {$this->getNumero()} es negativo"; 
+        if($num > 0){
+            $mensaje = "El numero $num es positivo";
+        }elseif($num < 0){
+            $mensaje = "El numero $num es negativo"; 
         }else{
-            $mensaje = "El numero {$this->getNumero()} es cero";
+            $mensaje = "El numero $num es cero";
         }
         return $mensaje;
     }
