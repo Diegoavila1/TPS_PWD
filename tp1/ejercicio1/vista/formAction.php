@@ -15,5 +15,5 @@
 
     echo "<a href='ejercicio1.php'>Enviar</a>"
 
-?>
+
 
