@@ -1,12 +1,15 @@
 <?php
 
 include "../control/cinemos.php";
+include "../Utiles/funciones.php";
 
 if($_POST){
-    $edad = $_POST["edad"];
-    $string = $_POST["selects"];
-    $objCinemos = new cinemos($edad,$string);
-    echo $objCinemos->calcularTarifa();
 
 
+    $datos = data_submitted();
+
+    $objCinemos = new cinemos();
+    echo $objCinemos->calcularTarifa($datos);
+    echo "<button><a href='form.php'>Volver</a></button>";
+    
 }

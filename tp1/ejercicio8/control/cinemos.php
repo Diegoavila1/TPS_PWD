@@ -1,43 +1,26 @@
 <?php
 
 class cinemos{
-    private $edad;
-    private $string;
 
-	public function __construct($edad, $string) {
-
-		$this->edad = $edad;
-		$this->string = $string;
+	public function __construct() {
 	}
 
-	public function getEdad() {
-		return $this->edad;
-	}
+    public function calcularTarifa($datos){
 
-	public function setEdad($value) {
-		$this->edad = $value;
-	}
-
-	public function getString() {
-		return $this->string;
-	}
-
-	public function setString($value) {
-		$this->string = $value;
-	}
-
-    public function calcularTarifa(){
-
+		$edad = $datos["edad"];
+		$select = $datos["selects"];
+		
         $precio = 0;
         
-        if($this->getString() == "estudiante" && intval($this->getEdad()) >= 12){
+        if($select == "estudiante" && intval($edad) >= 12){
             $precio = 180;
-        }elseif($this->getString() == "estudiante" || intval($this->getEdad()) < 12){
+        }elseif($select == "estudiante" || intval($edad) < 12){
             $precio = 160;
         }else{
             $precio = 300;
         }
 
-        return $precio;
+		$string = "Su boleto cuesta : $precio";
+        return $string;
     }
 }

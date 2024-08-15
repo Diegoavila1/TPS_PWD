@@ -6,6 +6,7 @@
     <title>ejercicio 8</title>
 </head>
 <body>
+
     <!--La empresa de Cine Cinem@s tiene establecidas diferentes tarifas para las entradas, en 
     función de la edad y de la condición de estudiante del cliente. Desea que sean los propios 
     clientes los que puedan calcular el valor de sus entradas a través de una página web. 
@@ -29,10 +30,11 @@
             <option value="ninguno">ninguno</option>
             <option value="estudiante">estudiante</option>
         </select>
-
+        
         <input type="submit" name="" id="">
         <input type="reset" name="" id="">
 
     </form>
+    
 </body>
 </html>

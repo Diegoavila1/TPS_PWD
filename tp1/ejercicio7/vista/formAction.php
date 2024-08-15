@@ -1,16 +1,14 @@
 <?php
 
 include "../control/calculadora.php";
-
+include "../Utiles/funciones.php";
 
 if($_GET){
 
-    $string = $_GET["selects"];
-    $numUno = $_GET["numUno"];
-    $numDos = $_GET["numDos"];
+    $datos = data_submitted();
 
-    $objCalculadora = new calculadora($numUno,$numDos,$string);
+    $objCalculadora = new calculadora();
     
-    echo "Se realizo la operacion y como resulado dio : {$objCalculadora->calcular()}";
+    echo $objCalculadora->calcular($datos);
 
 }

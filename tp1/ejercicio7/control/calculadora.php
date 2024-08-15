@@ -1,58 +1,32 @@
 <?php
 
 class calculadora {
-    private $numUno;
-    private $numDos;
-    private $string;
-
-	public function __construct($numUno, $numDos, $string) {
-
-		$this->numUno = $numUno;
-		$this->numDos = $numDos;
-		$this->string = $string;
+	public function __construct() {
 	}
 
-	public function getNumUno() {
-		return $this->numUno;
-	}
 
-	public function setNumUno($value) {
-		$this->numUno = $value;
-	}
+    public function calcular($datos){
 
-	public function getNumDos() {
-		return $this->numDos;
-	}
-
-	public function setNumDos($value) {
-		$this->numDos = $value;
-	}
-
-	public function getstring() {
-		return $this->string;
-	}
-
-	public function setstring($value) {
-		$this->string = $value;
-	}
-
-    public function calcular(){
+		$x = $datos["numUno"];
+		$y = $datos["numDos"];
+        $selects = $datos["selects"];
 
         $calcula = 0;
 
-        if($this->getstring() == "sumar"){
-            $calcula = intVal($this->getNumUno()) + intVal($this->getNumDos());
+        if($selects == "sumar"){
+            $calcula = intVal($x) + intVal($y);
         }
 
-        if($this->getstring() == "restar"){
-            $calcula = intVal($this->getNumUno()) - intVal($this->getNumDos());
+        if($selects == "restar"){
+            $calcula = intVal($x) - intVal($y);
         }
 
-        if($this->getstring() == "multiplicar"){
-            $calcula = intVal($this->getNumUno()) * intVal($this->getNumDos());
+        if($selects == "multiplicar"){
+            $calcula = intVal($x) * intVal($y);
         }
-
-        return $calcula;
+		
+		$mensaje = "Se realizo la operacion y como resulado dio : $calcula";
+        return $mensaje;
     }
 
 }

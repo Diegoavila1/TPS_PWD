@@ -10,27 +10,12 @@
 
 include "../control/persona.php";
 include "../Utiles/funciones.php";
-$datos = data_submitted();
 
 if($_GET){
+
     $datos = data_submitted();
+    $objPersona = new persona;
+    echo $objPersona->nivelesEstudio($datos);
+    echo $objPersona->tipoGenero($datos);
     
-    $radio = $_GET["nivelEstudio"];
-    $select = $_GET["genero"];
-    
-    if($radio == "estPrimario"){
-        echo "Tiene estudios primario";
-    }elseif($radio == "estSecundario"){
-        echo "Tiene estudios secundarios";
-    }else{
-        echo "No tiene estudios";
-    }
-
-    if($select == "Femenino"){
-        echo "Sexo : femenino";
-    }elseif($select == "Masculino"){
-        echo "Sexo : femenino";
-    }
-
-
 }
