@@ -13,7 +13,7 @@
         echo "no ingreso nada";
     }
 
-    echo "<a href='ejercicio1.php'>Enviar</a>"
+    echo "<a href='ejercicio1.php'>Enviar</a>";
 
 
 
