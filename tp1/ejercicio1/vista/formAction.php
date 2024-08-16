@@ -1,19 +1,18 @@
 <?php
 
     include "../control/vernumero.php";
+    include "../utiles/funciones.php";
 
     if($_GET){
         
-        $dato = $_GET["numero"];
-        $obj = new vernumero($dato);
+        $datos = data_submitted();
+        $obj = new vernumero($datos);
 
         echo "<br>";
-        echo $obj->numPositivoNegativo($dato);
+        echo $obj->numPositivoNegativo($datos);
+        
     }else{
         echo "no ingreso nada";
     }
 
     echo "<a href='ejercicio1.php'>Enviar</a>";
-
-
-
