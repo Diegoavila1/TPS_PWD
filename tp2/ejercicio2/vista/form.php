@@ -78,8 +78,8 @@
           </div>
           
           <div class="mb-3 w-25">
-            <label for="ano" class="form-label " >Año</label>
-            <input type="text" name="ano" id="ano" class="form-control" maxlength="4">
+            <label for="anio" class="form-label " >Año</label>
+            <input type="text" name="anio" id="anio" class="form-control" maxlength="4">
           </div>
           
           <div class="mb-3">
@@ -98,7 +98,7 @@
         <label class="form-label">Restricción de Edad</label>
         
         <div class="form-check">
-          <input type="radio" name="edad" id="edad1" value="" class="form-check-input">
+          <input type="radio" name="Todos los publicos" id="edad1" value="" class="form-check-input">
           <label for="edad1" class="form-check-label">Todos los publicos.</label>
         </div>
         
