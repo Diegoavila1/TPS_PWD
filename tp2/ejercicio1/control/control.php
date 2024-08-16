@@ -11,41 +11,34 @@ class verificacion{
      de bienvenida si los datos ingresados coinciden con alguno de los almacenados en el arreglo 
      y en caso contrario un mensaje de error.*/
 
-   public function check($datos){
+   public function check($datos,$usuarios){
     
-    $nombreUsuario = $datos["nombre"];
-    $contraseniaUsuario = $datos["contraseña"];
-
-    $usuarios = [
-        ["usuario" => "juan", "clave" => "1234j"],
-        ["usuario" => "user1", "clave" => "password1"],
-        ["usuario" => "user2", "clave" => "password2"]
-    ];
-
+    $nombreUsuario = $datos["name"];
+    $contraseniaUsuario = $datos["password"];
         
        // Verificar si el usuario y la contraseña son correctos
-       $encontrado = false;
        $i = 0;
-       while ( $i < count($usuarios) && !$encontrado ) {
-           if ($usuarios[$i] === $nombreUsuario && $usuarios[$i] === $contraseniaUsuario) {
-               $encontrado = true;
+       $userEncontrado = null;
+       while ($i < count($usuarios) && $userEncontrado == null) {
+           if ($usuarios[$i]['usuario'] == $nombreUsuario && $usuarios[$i]['clave'] == $contraseniaUsuario) {
+               $userEncontrado = $usuarios[$i]['usuario'];
            }else{
                $i++;
            }
        }
-       return $encontrado;
+       return $userEncontrado;
     }
 
 
 
     
-    public function comprobarUsuario($datos){
-        if($this->check($datos)){
-            echo "Ingreso a su usuario";
-        }else{
-            echo "mensaje de error";
+    public function comprobarUsuario($datos,$usuarios){
+
+        $mensaje = "mensaje de error";
+
+        if($this->check($datos,$usuarios) != null){
+        $mensaje = "hola {$this->check($datos,$usuarios)}, Como estas master(●'◡'●)?.";
         }
+        return $mensaje;
     }
-
-
 }
