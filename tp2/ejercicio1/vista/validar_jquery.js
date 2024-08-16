@@ -1,9 +1,8 @@
-// Establecer los valores por defecto para el manejador de envío
-$.validator.setDefaults({
-    submitHandler: function() {
-        alert("Formulario enviado con éxito!");
-    }
-});
+ // Añadir la regla de validación personalizada
+ $.validator.addMethod('notEqual', function(value, element, param) {
+    return this.optional(element) || value !== $(param).val();
+}, 'La contraseña no puede ser igual al nombre.');
+
 
 $.validator.addMethod("distintoDe", function(value, element, param){
     return value != $(param).val();
@@ -23,8 +22,12 @@ $(document).ready(function() {
             name: {
                 required: true,
                 minlength: 3,
+<<<<<<< HEAD
                 distintoDe: "#password",
                 soloLetras: true
+=======
+                notEqual: "#password" // Usa la regla personalizada
+>>>>>>> 15de16513a3691f3447e16aa528a73e7cb18f809
             },
             password: {
                 required: true,
@@ -37,8 +40,12 @@ $(document).ready(function() {
             name: {
                 required: "Por favor, ingrese su nombre.", 
                 minlength: "El nombre debe tener al menos 3 caracteres.",
+<<<<<<< HEAD
                 onlyLetters: "El nombre solo puede contener letras.",
                 soloLetras: "El nombre solo puede contener letras."
+=======
+                notEqual: "La contraseña no puede ser igual al nombre." // Mensaje de error para la regla personalizada
+>>>>>>> 15de16513a3691f3447e16aa528a73e7cb18f809
             },
             password: {
                 required: "Por favor, ingrese su contraseña.",
