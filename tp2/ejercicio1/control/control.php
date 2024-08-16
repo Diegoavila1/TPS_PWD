@@ -6,7 +6,7 @@ class verificacion{
 
     /**-Los datos del formulario son enviados a un script verificaPass.php
      en el que contienen un arreglo asociativo por cada usuario del sistema. 
- 
+
      -El arreglo asociativo tiene como claves: “usuario” y “clave”. El script debe visualizar un mensaje 
      de bienvenida si los datos ingresados coinciden con alguno de los almacenados en el arreglo 
      y en caso contrario un mensaje de error.*/
