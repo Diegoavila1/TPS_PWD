@@ -1,36 +1,71 @@
+/*
+$.validator.setDefaults( {
+    submitHandler: function () {
+       alert( "submitted!" );
+    }
+ });
 
-
-$(function () {
-
-    jQuery("#form").validate({
+$(document).ready(function() {
+    $("#form").validate({
         rules: {
-            name: {
+            name:{
                 required: true,
-                minlength: 8
+                minlength: 3,
             },
-            password: {
+            password:{
                 required: true,
                 minlength: 8,
-                notEqualTo: "#Nombre"
             }
-    
         }, messages: {
             name: {
                 required: "Por favor, ingrese su nombre",
-                minlength: "El nombre debe tener al menos 8 caracteres"
+                minlength: "El nombre debe tener al menos 3 caracteres",
+                notEqual: "El nombre no puede ser igual a la contraseña"
             },
             password: {
                 required: "Por favor, ingrese su contraseña",
                 minlength: "La contraseña debe tener al menos 8 caracteres"
             }
-        }, submitHandler: function (form) {
-            form.submit();
         }
-    });
+    })
+});*/
 
+
+ // Añadir la regla de validación personalizada
+ $.validator.addMethod('notEqual', function(value, element, param) {
+    return this.optional(element) || value !== $(param).val();
+}, 'La contraseña no puede ser igual al nombre.');
+
+// Establecer los valores por defecto para el manejador de envío
+$.validator.setDefaults({
+    submitHandler: function() {
+        alert("Formulario enviado con éxito!");
+    }
 });
 
-
-
-
-
+$(document).ready(function() {
+    $("#form").validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 3,
+                notEqual: "#password" // Usa la regla personalizada
+            },
+            password: {
+                required: true,
+                minlength: 8
+            }
+        },
+        messages: {
+            name: {
+                required: "Por favor, ingrese su nombre.",
+                minlength: "El nombre debe tener al menos 3 caracteres.",
+                notEqual: "La contraseña no puede ser igual al nombre." // Mensaje de error para la regla personalizada
+            },
+            password: {
+                required: "Por favor, ingrese su contraseña.",
+                minlength: "La contraseña debe tener al menos 8 caracteres."
+            }
+        }
+    });
+});
