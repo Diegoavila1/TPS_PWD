@@ -22,7 +22,7 @@
     justify-content: center;
     ">
         <h1 class="mb-4">Member Login</h1>
-        <form id="form" action="verificaPass.php" method="post">
+        <form id="form" action="verificarPass.php" method="post">
             <div class="mb-3">
             <label for="name" class="form-label">Nombre:</label>
             <input type="text" id="name" name="name" class="form-control">

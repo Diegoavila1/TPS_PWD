@@ -1,5 +1,8 @@
  // Añadir la regla de validación personalizada
- $.validator.addMethod('notEqual', function(value, element, param) {
+
+
+$(document).ready(function() {
+    $.validator.addMethod('notEqual', function(value, element, param) {
     return this.optional(element) || value !== $(param).val();
 }, 'La contraseña no puede ser igual al nombre.');
 
@@ -10,13 +13,11 @@ $.validator.addMethod("distintoDe", function(value, element, param){
 
 $.validator.addMethod("soloLetras", function(value, element){
     return /^[a-zA-Z]+$/.test(value);
-});
+}, "El nombre solo puede contener letras.");
 
 $.validator.addMethod("letrasYnumeros", function(value){
-    return /^[a-zA-Z]/.test(value) && /[0-9]/.test(value);
+    return (/^[a-zA-Z]/.test(value) && /[0-9]/.test(value)) || (/^[0-9]/.test(value) && /[a-zA-Z]/.test(value));
 });
-
-$(document).ready(function() {
     $("#form").validate({
         rules: {
             name: {
