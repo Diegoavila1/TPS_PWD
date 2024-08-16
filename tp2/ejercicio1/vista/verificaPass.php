@@ -16,7 +16,7 @@ include "../control/control.php";
 $datos = data_submitted();
 
 $usuarios = [
-    ["usuario" => "juan", "clave" => "1234j"],
+    ["usuario" => "juan", "clave" => "12345678"],
     ["usuario" => "user1", "clave" => "password1"],
     ["usuario" => "user2", "clave" => "password2"]
 ];
