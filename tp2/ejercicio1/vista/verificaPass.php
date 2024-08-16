@@ -13,16 +13,12 @@ letras y números.*/
 include "../utiles/funciones.php";
 include "../control/control.php";
 
-echo "1. Datos recibidos: <br>";
 
 $datos = data_submitted();
-echo "2. Datos recibidos: <br>";
 $usuarios = [
     ["usuario" => "valentin", "clave" => "valentin12345678"],
     ["usuario" => "juancruz", "clave" => "juan87654321"],
     ["usuario" => "diegoavila", "clave" => "diego12345678"]
 ];
-echo "3. Datos recibidos: <br>";
 $objControl = new verificacion;
-echo "4. Datos recibidos: <br>";
 echo $objControl->comprobarUsuario($datos,$usuarios);
