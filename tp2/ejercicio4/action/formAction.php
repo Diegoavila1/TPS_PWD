@@ -5,7 +5,11 @@ include "../control/CheckImage.php";
 $datos = data_submitted();
 $objPelicula = new peliculas;
 
-$mostrarPelicula = $objPelicula->mostraPelicula($datos);
+$mostrarPelicula = '';
+foreach ($objPelicula->mostraPelicula($datos) as $key => $value) {
+    $mostrarPelicula .= "$value<br>";
+}
+
 $data = data_submitted();
 $archivo = new CheckImage();
 $respuesta = $archivo->subirArchivo($data);

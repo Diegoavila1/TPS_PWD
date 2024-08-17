@@ -4,31 +4,17 @@
 
     public function mostraPelicula($datos){
         $pelicula = [];
-        $pelicula[0] = $datos["titulo"];
-        $pelicula[] = $datos["director"];
-        $pelicula[] = $datos["produccion"];
-        $pelicula[] = $datos["nacionalidad"];
-        $pelicula[] = $datos["duracion"];
-        $pelicula[] = $datos["actores"];
-        $pelicula[] = $datos["guion"];
-        $pelicula[] = $datos["anio"];
-        $pelicula[] = $datos["edad"];
-        $pelicula[] = $datos["genero"];
-
-
-
-        $string = "Titulo : $titulo ";
-        $string .= "Actores : $actores";
-        $string .= "Director : $director";
-        $string .= "Guion : $guion";
-        $string .= "Produccion : $produccion";
-        $string .= "Anio : $anio";
-        $string .= "Nacionalidad : $nacionalidad";
-        $string .= "Genero : $generos";
-        $string .= "Duracion : $duracion";
-        $string .= "Restricciones de edad : $restriccionesEdad";
-        
-        return $string;
+        $pelicula[0] = "pelicula: ".$datos["titulo"];
+        $pelicula[1] = "director: ".$datos["director"];
+        $pelicula[2] = "productor: ". $datos["produccion"];
+        $pelicula[3] = "nacionalidad: ".$datos["nacionalidad"];
+        $pelicula[4] = "duracion: ".$datos["duracion"];
+        $pelicula[5] = "actores: ".$datos["actores"];
+        $pelicula[6] = "guion: ".$datos["guion"];
+        $pelicula[7] = "anio: ".$datos["genero"];
+        $pelicula[8] = "edad: ".$datos["edad"];
+        $pelicula[9] = "sinopsis".$datos["sinopsis"];
+        return $pelicula;
     }
     
 
