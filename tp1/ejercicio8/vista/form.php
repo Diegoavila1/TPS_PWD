@@ -25,7 +25,7 @@
 <header class="navbar">
     <nav class="container-fluid d-flex justify-content-start border border-secondary rounded text-center">
 
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
         
       <div class="dropdown me-2">

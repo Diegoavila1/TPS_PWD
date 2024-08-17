@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejercicio 8</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../style.css">
 </head>
 <body>
     <!--Ejercicio 4
@@ -19,7 +20,60 @@ aceptar números.
 formulario.
 - El botón “Borrar” debe limpiar el formulario.
 El diseño del formulario completo es el siguiente: -->
-     
+   <header class="navbar">
+    <nav class="container-fluid d-flex justify-content-start border border-secondary rounded text-center">
+
+      <a class="navbar-brand" href="../../../index.html">
+        <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
+
+
+      <div class="dropdown me-2">
+        <button class="btn btn-primary btn dropdown-toggle " type="button" data-bs-toggle="dropdown">
+          Practico 1
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a class="dropdown-item" href="../../ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio2/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio3/vista/form.php">ejercicio 3</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio4/vista/form.php">ejercicio 4</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio5/vista/form.php">ejercicio 5</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio6/vista/form.php">ejercicio 6</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio7/vista/form.php">ejercicio 7</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio8/vista/form.php">ejercicio 8</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown me-2">
+        <button class="btn btn-primary btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Practico 2
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a class="dropdown-item" href="../../../tp2/ejercicio3/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../tp2/ejercicio4/vista/form.php">ejercicio 2</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown me-2">
+        <button class="btn btn-primary btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Practico 3
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class=""> 
+      <img src="../imagenes/pedco.jpg" alt="">
+      <img src="../imagenes/githubLogo.p" alt="">
+      
+    </div>
+    
+  </header>
+  <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
+  <div class="row "></div>
+
  <div class="container h-100 shadow-lg md mt-5 p-3 rounded">
     <h1 class="text-info bg-light col-md-12 rounded p-3">Cinem@s</h1>
      
