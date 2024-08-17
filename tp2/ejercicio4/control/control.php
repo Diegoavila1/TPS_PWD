@@ -2,18 +2,6 @@
 
  class peliculas{
 
-
-    public function restriccionEdad($datos){
-        $restriccionesEdad = $datos["edad"];
-        $string = null;        foreach($restriccionesEdad as $edad){
-            if($edad != null){
-                $restriccionesEdad = $edad;
-            }
-        }
-
-        return $string;
-    }
-
     public function mostraPelicula($datos){
         $titulo = $datos["titulo"];
         $director = $datos["director"];
@@ -41,5 +29,6 @@
         
         return $string;
     }
+    
 
  }

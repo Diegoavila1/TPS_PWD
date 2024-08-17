@@ -23,9 +23,9 @@ El diseño del formulario completo es el siguiente: -->
  <div class="container h-100 shadow-lg md mt-5 p-3 rounded">
     <h1 class="text-info bg-light col-md-12 rounded p-3">Cinem@s</h1>
      
-    <form action="formAction.php" method="post">
+    <form action="../action/formAction.php" method="post" enctype="multipart/form-data">
       <div class="row">
-        
+
         <div class="col-md-6">
           <div class="mb-3">
             <label for="titulo" class="form-label">Título</label>
@@ -140,6 +140,7 @@ El diseño del formulario completo es el siguiente: -->
           </style>
       
       <div class="d-flex justify-content-end m-4">
+        <input type="file" name="archive" id="archive" class="btn btn-primary"/>
         <button type="submit" class="btn btn-primary m-1">Enviar</button>
         <button type="reset" class="btn btn-secondary m-1">Resetear</button>
       </div>
