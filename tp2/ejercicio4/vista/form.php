@@ -4,23 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejercicio 8</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../style.css">
+
 </head>
 <body>
-    <!--Ejercicio 4
-Diseñar un formulario que permita cargar las películas de la empresa Cinem@s. La lista géneros
-tiene los siguientes datos: Comedia, Drama, Terror, Románticas, Suspenso, Otras.
-Aplicar Bootstrap y validar los siguiente:
-- El año debe ser un campo que debe permitir ingresar como máximo 4 caracteres y solo
-aceptar números.
-- El campo duración debe permitir un máximo de 3 números.
-- Todos los datos son obligatorios
-- Al hacer click en el botón “Enviar”, se deberán mostrar todos los datos ingresados en el
-formulario.
-- El botón “Borrar” debe limpiar el formulario.
-El diseño del formulario completo es el siguiente: -->
-   <header class="navbar">
+
+  <header class="navbar">
     <nav class="container-fluid d-flex justify-content-start border border-secondary rounded text-center">
 
       <a class="navbar-brand" href="../../../index.html">
@@ -31,50 +22,60 @@ El diseño del formulario completo es el siguiente: -->
         <button class="btn btn-primary btn dropdown-toggle " type="button" data-bs-toggle="dropdown">
           Practico 1
         </button>
+
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../../ejercicio1/vista/form.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio2/vista/form.php">ejercicio 2</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio3/vista/form.php">ejercicio 3</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio4/vista/form.php">ejercicio 4</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio5/vista/form.php">ejercicio 5</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio6/vista/form.php">ejercicio 6</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio7/vista/form.php">ejercicio 7</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio8/vista/form.php">ejercicio 8</a></li>
+          <li><a class="dropdown-item" href="../../../tp1/ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../tp1/ejercicio2/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../../tp1/ejercicio3/vista/form.php">ejercicio 3</a></li>
+          <li><a class="dropdown-item" href="../../../tp1/ejercicio4vista/form.php">ejercicio 4</a></li>
+          <li><a class="dropdown-item" href="../../../tp1/ejercicio5/vista/form.php">ejercicio 5</a></li>
+          <li><a class="dropdown-item" href="../../../tp1/ejercicio6/vista/form.php">ejercicio 6</a></li>
+          <li><a class="dropdown-item" href="../../../tp1/ejercicio7/vista/form.php">ejercicio 7</a></li>
+          <li><a class="dropdown-item" href="../../../tp1/ejercicio8/vista/form.php">ejercicio 8</a></li>
         </ul>
+
       </div>
 
       <div class="dropdown me-2">
+
         <button class="btn btn-primary btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
           Practico 2
         </button>
+
         <ul class="dropdown-menu" role="menu">
           <li><a class="dropdown-item" href="../../../tp2/ejercicio3/vista/form.php">ejercicio 1</a></li>
           <li><a class="dropdown-item" href="../../../tp2/ejercicio4/vista/form.php">ejercicio 2</a></li>
         </ul>
+
       </div>
 
       <div class="dropdown me-2">
+
         <button class="btn btn-primary btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
           Practico 3
         </button>
+
         <ul class="dropdown-menu" role="menu">
           <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
           <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
         </ul>
+
       </div>
     </nav>
     
     <div class=""> 
+
       <img src="../imagenes/pedco.jpg" alt="">
       <img src="../imagenes/githubLogo.p" alt="">
       
     </div>
     
   </header>
-  <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
-  <div class="row "></div>
 
- <div class="container h-100 shadow-lg md mt-5 p-3 rounded">
+
+  <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
+
+    <div class="container h-100 shadow-lg md  p-3 rounded">
     <h1 class="text-info bg-light col-md-12 rounded p-3">Cinem@s</h1>
      
     <form action="../action/formAction.php" method="post" enctype="multipart/form-data">
@@ -175,7 +176,7 @@ El diseño del formulario completo es el siguiente: -->
           <label for="edad3" class="form-check-label">Mayores de 18 años.</label>
           <div class="invalid-feedback">
                 Este campo es obligatorio.
-            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -194,11 +195,37 @@ El diseño del formulario completo es el siguiente: -->
           </style>
       
       <div class="d-flex justify-content-end m-4">
+
         <input type="file" name="archive" id="archive" class="btn btn-primary"/>
         <button type="submit" class="btn btn-primary m-1">Enviar</button>
         <button type="reset" class="btn btn-secondary m-1">Resetear</button>
+
       </div>
+
     </form>
+
     </div>
+  </main>
+  
+  <footer class="container-fluid d-flex justify-content-between bg-dark shadow-lg ">
+
+    <div class="row text-light">
+      <ul class="" style="list-style-type: none; padding-left: 60px; margin-top:14% ; margin-bottom:14%;">
+        <li>Diego Rios</li>
+        <li>Miguel Soto</li>
+        <li>Juan Cruz Geslowski </li>
+        <li>Barquito </li>
+
+      </ul>
+    </div>
+
+    <div class="row" style="margin-right: 50px; margin-top:10px;">
+      <div class="col">
+        <p class="text-light mt-5">Programacion Web Dinamica 2024 @</p>
+      </div>
+
+    </div>
+  </footer>
+  
 </body>
 </html>

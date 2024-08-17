@@ -1,6 +1,5 @@
  // Añadir la regla de validación personalizada
 
-
 $(document).ready(function() {
     $.validator.addMethod('notEqual', function(value, element, param) {
     return this.optional(element) || value !== $(param).val();
