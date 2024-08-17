@@ -11,14 +11,13 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <!--BOOSTRAP-->
-
-  <link rel="stylesheet" href="style.css">
-  <title>Tp 1 ejercicio 1</title>
+  <link rel="stylesheet" href="../../../style.css">
+  <title>Practicos PWD</title>
 </head>
 
-<body style="font-family: arial">
+<body>
 
-  <header class="navbar">
+<header class="navbar">
     <nav class="container-fluid d-flex justify-content-start border border-secondary rounded text-center">
 
       <a class="navbar-brand" href="index.html">
@@ -30,14 +29,14 @@
           Practico 1
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../tp1/ejercicio1.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../tp1/ejercicio2.php">ejercicio 2</a></li>
-          <li><a class="dropdown-item" href="../tp1/ejercicio3.php">ejercicio 3</a></li>
-          <li><a class="dropdown-item" href="../tp1/ejercicio4.php">ejercicio 4</a></li>
-          <li><a class="dropdown-item" href="../tp1/ejercicio5.php">ejercicio 5</a></li>
-          <li><a class="dropdown-item" href="../tp1/ejercicio6.php">ejercicio 6</a></li>
-          <li><a class="dropdown-item" href="../tp1/ejercicio7.php">ejercicio 7</a></li>
-          <li><a class="dropdown-item" href="../tp1/ejercicio8.php">ejercicio 8</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio2/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio3/vista/form.php">ejercicio 3</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio4/vista/form.php">ejercicio 4</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio5/vista/form.php">ejercicio 5</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio6/vista/form.php">ejercicio 6</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio7/vista/form.php">ejercicio 7</a></li>
+          <li><a class="dropdown-item" href="../../ejercicio8/vista/form.php">ejercicio 8</a></li>
         </ul>
       </div>
 
@@ -46,10 +45,8 @@
           Practico 2
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="#">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="#">ejercicio 2</a></li>
-          <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
-          <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
+          <li><a class="dropdown-item" href="../../../tp2/ejercicio3/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../tp2/ejercicio4/vista/form.php">ejercicio 2</a></li>
         </ul>
       </div>
 
@@ -58,9 +55,8 @@
           Practico 3
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="#">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="#">ejercicio 2</a></li>
-          <li><a class="dropdown-item" href="#">ejercicio 3</a></li>
+          <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
         </ul>
       </div>
     </nav>
@@ -73,50 +69,61 @@
     
   </header>
 
-  <main class="container" style="min-height:600px; background-color : rgb(85 153 254)">
+  <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
+  <div class="row ">
 
-    <div class="row border border-dark">
+<div class="col">
+  <h1>Consigna: 1 </h1>
+  <p>
+    Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe
+    llamar a un script –vernumero.php- y visualizar un mensaje que indique si el número
+    enviado fue: positivo, cero o negativo. Añadir un link, a la página que visualiza la
+    respuesta, que permita volver a la página anterior.</p>
+</div>
+</div>
 
-      <div class="col">
-        <h1>Consigna: 1 </h1>
-        <p>
-          Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe
-          llamar a un script –vernumero.php- y visualizar un mensaje que indique si el número
-          enviado fue: positivo, cero o negativo. Añadir un link, a la página que visualiza la
-          respuesta, que permita volver a la página anterior.</p>
-      </div>
+<div class="row  mt-5">
+<div class="col">
+
+  <h1>Resolucion:</h1>
+
+   <form action="formAction.php" method="get">
+  <label for="">Ingrese un numero:</label>
+  <input type="number" name="num" id="">
+  <button type="submit">Enviar</button>
+  
+</form>
+</div>
+
+<div class="row  mt-5">
+<div class="col">
+  <p>MOSTRAR CODIGO</p>
+  <img src="" alt="" style="width: 50%;">
+</div>
+</div>
+
+
+</div>
+    
+</main>
+
+  <footer class="container-fluid d-flex justify-content-between bg-dark shadow-lg margin-top: 30%">
+
+    <div class="row text-light">
+      <ul class="" style="list-style-type: none; padding-left: 60px; padding-top: 30px; ">
+        <li>Diego Rios</li>
+        <li>Miguel Soto</li>
+        <li>Juan Cruz Geslowski </li>
+        <li>Barquito </li>
+
+      </ul>
     </div>
 
-    <div class="row border border-dark mt-5">
-      <div class="col">
-
-        <h1>Resolucion:</h1>
-
-         <form action="formAction.php" method="get">
-        <label for="">Ingrese un numero:</label>
-        <input type="number" name="num" id="">
-        <button type="submit">Enviar</button>
-        
-    </form>
-    </div>
-
-    <div class="row border border-dark mt-5">
-      <div class="col">
-        <p>MOSTRAR CODIGO</p>
-        <img src="" alt="" style="width: 50%;">
-      </div>
-    </div>
-
-
-    </div>
-
-  </main>
-
-  <footer class="container-fluid footer">
-    <div class="row text-start bg-dark">
+    <div class="row" style="margin-right: 50px; margin-top:10px;">
       <div class="col">
         <p class="text-light">Programacion Web Dinamica 2024 @</p>
       </div>
+
     </div>
   </footer>
 

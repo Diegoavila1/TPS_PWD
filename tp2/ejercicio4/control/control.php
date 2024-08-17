@@ -3,29 +3,30 @@
  class peliculas{
 
     public function mostraPelicula($datos){
-        $titulo = $datos["titulo"];
-        $director = $datos["director"];
-        $produccion = $datos["produccion"];
-        $nacionalidad = $datos["nacionalidad"];
-        $duracion = $datos["duracion"];
-        $actores = $datos["actores"];
-        $guion = $datos["guion"];
-        $anio = $datos["anio"];
-        $restriccionesEdad = $datos["edad"];
-        $generos = $datos["genero"];
+        $pelicula = [];
+        $pelicula[0] = $datos["titulo"];
+        $pelicula[] = $datos["director"];
+        $pelicula[] = $datos["produccion"];
+        $pelicula[] = $datos["nacionalidad"];
+        $pelicula[] = $datos["duracion"];
+        $pelicula[] = $datos["actores"];
+        $pelicula[] = $datos["guion"];
+        $pelicula[] = $datos["anio"];
+        $pelicula[] = $datos["edad"];
+        $pelicula[] = $datos["genero"];
 
 
 
-        $string = "Titulo : $titulo <br>";
-        $string .= "Actores : $actores<br>";
-        $string .= "Director : $director<br>";
-        $string .= "Guion : $guion<br>";
-        $string .= "Produccion : $produccion<br>";
-        $string .= "Anio : $anio<br>";
-        $string .= "Nacionalidad : $nacionalidad<br>";
-        $string .= "Genero : $generos<br>";
-        $string .= "Duracion : $duracion<br>";
-        $string .= "Restricciones de edad : $restriccionesEdad<br>";
+        $string = "Titulo : $titulo ";
+        $string .= "Actores : $actores";
+        $string .= "Director : $director";
+        $string .= "Guion : $guion";
+        $string .= "Produccion : $produccion";
+        $string .= "Anio : $anio";
+        $string .= "Nacionalidad : $nacionalidad";
+        $string .= "Genero : $generos";
+        $string .= "Duracion : $duracion";
+        $string .= "Restricciones de edad : $restriccionesEdad";
         
         return $string;
     }

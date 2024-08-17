@@ -19,7 +19,7 @@ class CheckImage
     }
     public function verificaTipo($archivo)
     {
-        return $archivo['archive']['type'] == 'image/jpg';
+        return $archivo['archive']['type'] == 'image/jpg' || $archivo['archive']['type'] == 'image/jpeg' || $archivo['archive']['type'] == 'image/png';
     }
 
     public function subirArchivo($array)
