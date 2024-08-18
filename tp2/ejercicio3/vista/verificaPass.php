@@ -20,5 +20,7 @@ $usuarios = [
     ["usuario" => "juancruz", "clave" => "juan87654321"],
     ["usuario" => "diegoavila", "clave" => "diego12345678"]
 ];
+
+print_r($datos);
 $objControl = new verificacion;
 echo $objControl->comprobarUsuario($datos,$usuarios);

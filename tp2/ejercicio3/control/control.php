@@ -12,7 +12,7 @@ class verificacion{
      y en caso contrario un mensaje de error.*/
 
    public function check($datos,$usuarios){
-    
+    print_r($datos);
     $nombreUsuario = $datos["name"];
     $contraseniaUsuario = $datos["password"];
         

@@ -90,27 +90,23 @@
         <h1>Resolucion:</h1>
 
         <div class="container mt-5 shadow p-3 mb-5 bg-body rounded bg-dark" style="max-width: 25%; justify-content: center;">
-        <h1 class="mb-4">Member Login</h1>
-        <form id="form" action="verificarPass.php" method="post">
+          <h1 class="mb-4">Member Login</h1>
+        <form id="form" action="../vista/verificarPass.php" method="post">
             <div class="mb-3">
             <label for="name" class="form-label">Nombre:</label>
             <input type="text" id="name" name="name" class="form-control">
             </div>
-
             <div class="mb-3">
             <label for="password" class="form-label">Contraseña:</label>
             <input type="password" id="password" name="password" class="form-control">
             </div>
-
             <button type="submit" class="btn btn-success"
-            style="width: 60%; margin: auto; display: flex; justify-content: center;">Login</button>
+            style="width: 60%; margin: auto; display: flex; justify-content: center;">Login
+            </button>
         </form>
         
         <div id="resultado"></div>
-
-        <script src="validar_jquery.js"></script>
-        
-    </div>
+        </div>
     </div>
         
     </form>
@@ -135,6 +131,10 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+  <script src="../vista/validar_jquery.js"></script>
 
 </body>
 
