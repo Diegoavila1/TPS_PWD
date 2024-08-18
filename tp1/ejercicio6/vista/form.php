@@ -23,13 +23,15 @@
 <body style="font-family: arial">
 
 <header class="navbar">
-    <nav class="container-fluid d-flex justify-content-start border border-secondary rounded text-center">
+
+    <nav class="container-fluid d-flex rounded-bg shadow-lg">
+    <div class=" d-flex justify-content-start ">
 
       <a class="navbar-brand" href="../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
 
 
-      <div class="dropdown me-2">
+      <div class="dropdown me-2 mt-1">
         <button class="btn btn-primary btn dropdown-toggle " type="button" data-bs-toggle="dropdown">
           Practico 1
         </button>
@@ -45,7 +47,7 @@
         </ul>
       </div>
 
-      <div class="dropdown me-2">
+      <div class="dropdown me-2 mt-1">
         <button class="btn btn-primary btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
           Practico 2
         </button>
@@ -55,7 +57,7 @@
         </ul>
       </div>
 
-      <div class="dropdown me-2">
+      <div class="dropdown me-2 mt-1">
         <button class="btn btn-primary btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
           Practico 3
         </button>
@@ -64,17 +66,20 @@
           <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
         </ul>
       </div>
-    </nav>
-    
-    <div class=""> 
+      </div>
+      <div class="justify-content-end m-1 p-2"> 
       <img src="../imagenes/pedco.jpg" alt="">
       <img src="../imagenes/githubLogo.p" alt="">
       
     </div>
+
+    </nav>
+    
+
     
   </header>
 
- <main class="container" style="min-height:600px; background-color : rgb(85 153 254)">
+ <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
 
          <div class="row ">
 

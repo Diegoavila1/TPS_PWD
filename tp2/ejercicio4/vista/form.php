@@ -12,8 +12,9 @@
 <body>
 
   <header class="navbar">
-    <nav class="container-fluid d-flex justify-content-start border border-secondary rounded text-center">
+    <nav class="container-fluid d-flex rounded-bg shadow-lg">
 
+    <div class=" d-flex justify-content-start ">
       <a class="navbar-brand" href="../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
 
@@ -59,16 +60,19 @@
           <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
           <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
         </ul>
-
       </div>
-    </nav>
-    
-    <div class=""> 
+      </div>
+
+      <div class=""> 
 
       <img src="../imagenes/pedco.jpg" alt="">
       <img src="../imagenes/githubLogo.p" alt="">
-      
-    </div>
+
+      </div>
+
+    </nav>
+    
+
     
   </header>
 
