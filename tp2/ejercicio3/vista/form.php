@@ -19,13 +19,14 @@
 <body style="font-family: arial">
 
 <header class="navbar">
-    <nav class="container-fluid d-flex justify-content-start border border-secondary rounded text-center">
+    <nav class="container-fluid d-flex rounded-bg shadow-lg">
+    <div class=" d-flex justify-content-start ">
 
       <a class="navbar-brand" href="../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
 
 
-      <div class="dropdown me-2">
+      <div class="dropdown me-2 mt-1">
         <button class="btn btn-primary btn dropdown-toggle " type="button" data-bs-toggle="dropdown">
           Practico 1
         </button>
@@ -41,7 +42,7 @@
         </ul>
       </div>
 
-      <div class="dropdown me-2">
+      <div class="dropdown me-2 mt-1">
         <button class="btn btn-primary btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
           Practico 2
         </button>
@@ -51,7 +52,7 @@
         </ul>
       </div>
 
-      <div class="dropdown me-2">
+      <div class="dropdown me-2 mt-1">
         <button class="btn btn-primary btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
           Practico 3
         </button>
@@ -60,17 +61,20 @@
           <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
         </ul>
       </div>
-    </nav>
-    
-    <div class=""> 
+      </div>
+      <div class="justify-content-end m-1 p-2"> 
       <img src="../imagenes/pedco.jpg" alt="">
       <img src="../imagenes/githubLogo.p" alt="">
       
     </div>
+
+    </nav>
+    
+
     
   </header>
 
-  <main class="container shadow-lg" style="min-height:600px; background-color : #00aaff">
+  <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
 
     <div class="row ">
 
@@ -128,13 +132,25 @@
 
   </main>
 
-  <footer class="container-fluid footer">
-    <div class="row text-start bg-dark">
-      <div class="col">
-        <p class="text-light">Programacion Web Dinamica 2024 @</p>
-      </div>
-    </div>
-  </footer>
+  <footer class="container-fluid d-flex justify-content-between bg-dark shadow-lg ">
+
+<div class="row text-light">
+  <ul class="" style="list-style-type: none; padding-left: 60px; margin-top:14% ; margin-bottom:14%;">
+    <li>Diego Rios</li>
+    <li>Miguel Soto</li>
+    <li>Juan Cruz Geslowski </li>
+    <li>Barquito </li>
+
+  </ul>
+</div>
+
+<div class="row" style="margin-right: 50px; margin-top:10px;">
+  <div class="col">
+    <p class="text-light mt-5">Programacion Web Dinamica 2024 @</p>
+  </div>
+
+</div>
+</footer>
 
 </body>
 
