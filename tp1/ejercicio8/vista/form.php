@@ -103,13 +103,14 @@
                 <form action="formAction.php" method="post">
 
                     <label for="">Ingrese la edad</label>
+                    <br>
                     <input type="text" name="edad" id="">
-
+                    <br>
                     <select name="selects" id="">
                         <option value="ninguno">ninguno</option>
                         <option value="estudiante">estudiante</option>
                     </select>
-
+                    <br>
                     <input type="submit" name="" id="">
                     <input type="reset" name="" id="">
 

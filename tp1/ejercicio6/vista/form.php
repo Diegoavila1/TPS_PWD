@@ -29,8 +29,6 @@
 
       <a class="navbar-brand" href="../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
-
-
       <div class="dropdown me-2 mt-1">
         <button class="btn btn-primary btn dropdown-toggle " type="button" data-bs-toggle="dropdown">
           Practico 1
@@ -100,6 +98,7 @@
                     <input type="radio" name="basket" id="">basket
                     <input type="radio" name="tennis" id="">tennis
                     <input type="radio" name="voley" id="">voley
+                    <br>
                     <input type="submit" name="" id="">
                 </form>
             </div>

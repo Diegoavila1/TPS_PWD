@@ -94,18 +94,25 @@
                 <h1>Resolucion:</h1>
 
                 <form action="formAction.php" method="get">
-
+                    
+                    <label for="">Ingrese un numero X</label>
+                    <br>
                     <input type="text" name="numUno" id="">
+                    <br>
+                    <label for="">Ingrese un numero Y</label>
+                    <br>
                     <input type="text" name="numDos" id="">
-
+                    <br>
                     <select name="selects" id="">
                         <option value="sumar">sumar</option>
                         <option value="restar">restar</option>
                         <option value="multiplicar">multiplicar</option>
                     </select>
+                    <br>
                     <input type="submit" name="" id="">
 
                 </form>
+                
             </div>
         </div>
 

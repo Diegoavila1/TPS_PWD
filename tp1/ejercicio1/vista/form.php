@@ -86,11 +86,11 @@
 
     <h1>Resolucion:</h1>
 
-    <form action="action/action.php" method="get">
-    <label for="">Ingrese un numero:</label>
+    <form  class="form-control" action="action/action.php" method="get">
+    <label class="form-control" for="">Ingrese un numero:</label>
     <br>
-    <input type="number" name="num" id="">
-    <button type="submit">Enviar</button>
+    <input class="form-control" type="number" name="num" id="">
+    <button class="btn btn-success" type="submit">Enviar</button>
     </form>
 
   </div>
@@ -98,7 +98,7 @@
   <div class="row  mt-5">
     <div class="col">
       <p>MOSTRAR CODIGO</p>
-      <img src="" alt="" style="width: 50%;">
+      <img src="../../../imagenes/form1.png" alt="" style="width: 50%;">
     </div>
   </div>
 

@@ -88,14 +88,16 @@
             
               <div class="row border border-dark mt-5">
                 <form action="formAction.php" method="get">
-        <label for="">Ingrese las horas de cursada de jueves:</label>
-        <input type="" name="jueves" id="">
-        <br>
-        <label for="">Ingrese las horas de cursada de viernes:</label>
-        <input type="" name="viernes" id="">
-        <br>
-        <button type="submit">Enviar</button>
-    </form>
+                  <label for="">Ingrese las horas de cursada de jueves:</label>
+                  <br> 
+                  <input type="" name="jueves" id="">
+                  <br>
+                  <label for="">Ingrese las horas de cursada de viernes:</label>
+                  <br> 
+                  <input type="" name="viernes" id="">
+                  <br>
+                  <button type="submit">Enviar</button>
+                </form>
               </div>
 
               <div class="row border border-dark mt-5">
