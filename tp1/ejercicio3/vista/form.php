@@ -77,7 +77,7 @@
 
       <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
 
-                    <div class="row border border-dark">
+                    <div class="row ">
 
             <div class="col">
                 <h1>Consigna: 3</h1>
@@ -90,35 +90,48 @@
             </div>
         </div>
 
-        <div class="row border border-dark mt-5">
-            <div style="margin:auto">
-                <h1>POST</h1>
+        <div class="row mt-5">
+                
+                <div class="row" id="contenedor">
+               
+                  <div class="col" id="post">
+                    
+                    <form action="formAction.php" method="post">
+                        <h1>POST</h1>
+                        Nombre :<input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+                        Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+                        Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+                        Direcion : <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+                        <button type="submit" class="boton">Enviar</button>                    
+                      </form>
 
-                <form action="formAction.php" method="post">
-                    Nombre : <input type="text" name="nombre" id="" style="display:block">
-                    Apellido : <input type="text" name="apellido" id="" style="display:block">
-                    Edad :<input type="number" name="edad" id="" style="display:block">
-                    Dirrecion : <input type="text" name="direccion" id="" style="display:block">
-
-                </form>
-
-                <h1>GET</h1>
-                <form action="formAction.php" method="get">
-                    Nombre : <input type="text" name="nombre" id="" style="display:block">
-                    Apellido : <input type="text" name="apellido" id="" style="display:block">
-                    Edad :<input type="number" name="edad" id="" style="display:block">
-                    Dirrecion : <input type="text" name="direccion" id="" style="display:block">
-                    <button type="submit">Enviar</button>
-                </form>
+                  </div>
+                  
+                  <div class="col" id="get">
+                    <form action="formAction.php" method="get">
+                        <h1>GET</h1>
+                        Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+                        Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+                        Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+                        Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+                        <button type="submit" class="boton">Enviar</button>
+                      </form>
+                  </div>
+                </div>
             </div>
         </div>
-
-        <div class="row border border-dark mt-5">
-            <div class="col">
-                <img src="imagenes/dos.png" alt="" style="width: 50%;">
-            </div>
+      <div class="fotosPostGet">
+        <div class="row  mt-5">
+                <div class="col" id="postfoto">
+                <img src="../../../imagenes/form3a.png" alt="" class="img-codigo">
+                </div>
         </div>
-
+        <div class="row  mt-5" id="getfoto">
+                <div class="col">
+                <img src="../../../imagenes/form3b.png" alt="" class="img-codigo">
+                </div>
+        </div>
+        </div>
 
         </div>
 

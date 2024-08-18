@@ -71,7 +71,7 @@
   <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
   <div class="row">
 
-    <div class="col">
+    <div id="consigna"class="col ">
       <h1>Consigna: 1 </h1>
       <p class="pFont">
         Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe
@@ -86,19 +86,19 @@
 
     <h1>Resolucion:</h1>
 
-    <form  class="form-control" action="action/action.php" method="get">
-    <label class="form-control" for="">Ingrese un numero:</label>
-    <br>
-    <input class="form-control" type="number" name="num" id="">
-    <button class="btn btn-success" type="submit">Enviar</button>
+    <form action="action/action.php" method="get">
+      <div class="mb-3">
+          <label for="num" class="">Ingrese un número:</label>
+          <input type="number" class="form-control ancho-input" name="num" id="num" placeholder="Escribe un número">
+      </div>
+          <button type="submit" class="boton">Enviar</button>
     </form>
 
   </div>
 
   <div class="row  mt-5">
     <div class="col">
-      <p>MOSTRAR CODIGO</p>
-      <img src="../../../imagenes/form1.png" alt="" style="width: 50%;">
+      <img src="../../../imagenes/form1.png" alt="" class="img-codigo">
     </div>
   </div>
 

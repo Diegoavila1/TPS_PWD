@@ -1,9 +1,5 @@
 <?php
-class horasCursadas{
-
-    public function __construct() {
-    }
-
+class HorasCursadas{
 
     public function mostrarHorasCatedra($datos){
         $jueves = $datos["jueves"];

@@ -1,4 +1,4 @@
-body{
+html{
     font-family: Arial, Helvetica, sans-serif;
 }
 img{
@@ -8,5 +8,71 @@ img{
 p , label {
     font-size: 18px;
 }
+
+.btn-verde {
+    background-color: rgb(42, 202, 68); 
+    color: black;
+}
+
+.ancho-input {
+    width: 200px;
+}
+
+#consigna {
+    padding: 15px;
+}
+
+.boton{
+    background-color: rgb(42, 202, 68); 
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0 0 5px ;
+    transition-duration: 0.4s;
+    width: 100px;
+    border: solid 0px;
+    margin: 20px;
+}
+#contenedor {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+#post, #get {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover {
+    scale: 1.1;
+    background-color: rgb(53, 255, 85);
+    
+    
+}
+
+.img-codigo{
+    width: 100%;
+}
+.fotosPostGet {
+    display: flex;
+    justify-content: space-around;
+
+}
+.fotosPostGet img {
+    max-width: 1400px;
+    max-height: 1200px;
+}
+
+.respuesta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: 30px;
+
+}
+
+
 
 

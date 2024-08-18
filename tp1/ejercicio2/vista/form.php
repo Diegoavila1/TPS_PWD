@@ -86,23 +86,23 @@
                 </div>
               </div>
             
-              <div class="row border border-dark mt-5">
-                <form action="formAction.php" method="get">
+              <div class="row mt-5">
+                <form action="action/formAction.php" method="get">
                   <label for="">Ingrese las horas de cursada de jueves:</label>
                   <br> 
-                  <input type="" name="jueves" id="">
+                  <input class="form-control ancho-input" type="" name="jueves" id="">
                   <br>
                   <label for="">Ingrese las horas de cursada de viernes:</label>
                   <br> 
-                  <input type="" name="viernes" id="">
+                  <input class="form-control ancho-input" type="" name="viernes" id="">
                   <br>
-                  <button type="submit">Enviar</button>
+                  <button class="boton" type="submit">Enviar</button>
                 </form>
               </div>
 
-              <div class="row border border-dark mt-5">
+              <div class="row  mt-5">
                 <div class="col">
-                <img src="imagenes/dos.png" alt="" style="width: 50%;">
+                <img src="../../../imagenes/form2.png" alt="" class="img-codigo">
                 </div>
               </div>
 
