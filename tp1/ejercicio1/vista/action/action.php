@@ -1,12 +1,12 @@
 <?php
 
-    include "../control/vernumero.php";
-    include "../utiles/funciones.php";
+    include "../../control/verNumero.php";
+    include "../../utiles/funciones.php";
 
     if($_GET){
         
         $datos = data_submitted();
-        $obj = new vernumero($datos);
+        $obj = new verNumero();
 
         echo "<br>";
         echo $obj->numPositivoNegativo($datos);

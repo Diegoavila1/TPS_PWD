@@ -1,14 +1,11 @@
 <?php
 
-class vernumero{
+class verNumero{
 
     public function __construct() {
     }
-
-    
     public function numPositivoNegativo($datos){
         $num = $datos["num"];
-
         if($num > 0){
             $mensaje = "El numero $num es positivo";
         }elseif($num < 0){
@@ -18,5 +15,4 @@ class vernumero{
         }
         return $mensaje;
     }
-
 }

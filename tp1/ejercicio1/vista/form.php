@@ -16,7 +16,6 @@
 </head>
 
 <body>
-  
 <header class="navbar">
     <nav class="container-fluid d-flex rounded-bg shadow-lg">
 
@@ -85,7 +84,7 @@
 
     <h1>Resolucion:</h1>
 
-    <form action="formAction.php" method="get">
+    <form action="action/action.php" method="get">
     <label for="">Ingrese un numero:</label>
     <input type="number" name="num" id="">
     <button type="submit">Enviar</button>
