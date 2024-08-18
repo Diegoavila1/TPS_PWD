@@ -80,33 +80,52 @@
 
          <div class="row ">
 
-            <div class="col">
+            <div id="content" class="col">
                 <h1>Consigna: 6</h1>
                 <p>
                     Ejercicio 6
                     Modificar el formulario del ejercicio anterior para que permita seleccionar los diferentes
-                    deportes que practica (futbol, basket, tennis, voley) un alumno. Mostrar en la página
-                    que procesa el formulario la cantidad de deportes que practica. </p>
+                    deportes que practica (futbol, basket, tennis, voley) un alumno. 
+                    <br>Mostrar en la página que procesa el formulario la cantidad de deportes que practica. </p>
             </div>
         </div>
 
         <div class="row  mt-5">
-            <div class="col">
+            <div id="contenedorEj6"class="col">
                 <h1>Resolucion:</h1>
-                <form action="formAction.php" method="get">
-                    <input type="radio" name="futbol" id="">futbol
-                    <input type="radio" name="basket" id="">basket
-                    <input type="radio" name="tennis" id="">tennis
-                    <input type="radio" name="voley" id="">voley
-                    <br>
-                    <input type="submit" name="" id="">
+                <form class="checkForm" action="formAction.php" method="get">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="futbol" id="futbol">
+                      <label class="form-check-label" for="futbol">
+                        Fútbol
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="basket" id="basket">
+                      <label class="form-check-label" for="basket">
+                        Basket
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="tennis" id="tennis">
+                      <label class="form-check-label" for="tennis">
+                        Tenis
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="voley" id="voley">
+                      <label class="form-check-label" for="voley">
+                        Vóley
+                      </label>
+                    </div>
+                    <button class="boton" type="submit">Enviar</button>
                 </form>
             </div>
         </div>
 
         <div class="row  mt-5">
             <div class="col">
-                <img src="imagenes/dos.png" alt="" style="width: 50%;">
+                <img src="../../../imagenes/form6Get.png" alt="" class="img-codigo">
             </div>
         </div>
 

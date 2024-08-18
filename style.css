@@ -5,6 +5,10 @@ img{
     width:40px;
 }
 
+.img-house{
+    padding-top: 0;
+}
+
 p , label {
     font-size: 18px;
 }
@@ -18,24 +22,53 @@ p , label {
     width: 200px;
 }
 
-#consigna {
-    padding: 15px;
-}
 
 .boton{
     background-color: rgb(42, 202, 68); 
     color: black;
     border-radius: 4px;
     box-shadow: 0 0 5px ;
-    transition-duration: 0.4s;
+    transition: all 0.8s ease-in-out;
+
     width: 100px;
-    border: solid 0px;
-    margin: 20px;
+    border: none;
+    margin-right: 10px;
+   
 }
+#contenedorEj6 {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en una columna */
+    max-width: 400px; /* Ajusta el ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor en la página */
+  }
+
+#contenedorEj1 {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en una columna */
+    max-width: 400px; /* Ajusta el ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor en la página */
+  }
+  
+  #contenedorEj1 label {
+    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo de entrada */
+    font-weight: bold; /* Resalta las etiquetas */
+  }
+  
+  #contenedorEj1 input {
+    margin-bottom: 15px; /* Espacio entre campos de entrada */
+    padding: 10px; /* Relleno dentro del campo de entrada */
+    border-radius: 4px; /* Bordes redondeados */
+   
+    width: 100%; /* Ajusta el ancho del campo de entrada */
+  }
+  
+
+
 #contenedor {
-    display: flex !important;
-    justify-content: space-around !important;
+   display:flex;
+   justify-content: center;
 }
+
 #post, #get {
     display: flex;
     justify-content: center;
@@ -45,16 +78,24 @@ p , label {
 .boton:hover {
     scale: 1.1;
     background-color: rgb(53, 255, 85);
-    
+    transition-duration: 1s ease-in-out;
+    box-shadow: 0 0 15px ;
     
 }
 
 .img-codigo{
     width: 100%;
+    border-radius: 5px;
+    
 }
+
 .fotosPostGet {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    
+
+}
+.fotosPostGet h1 {
+    margin-left: 3%;
 
 }
 .fotosPostGet img {
@@ -70,8 +111,65 @@ p , label {
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
     font-size: 30px;
+   
 
 }
+#content h1 {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 3%;
+}
+#content p {
+    margin-left: 3%;
+}
+#contenedorUno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#formulario {
+    min-width: 40%;
+}
+.checkForm{
+    font-size: 20px;
+    color: black;
+    margin: 20px,
+
+}
+
+.checkForm {
+    max-width: 500px;
+   
+  }
+
+  .boton {
+    margin-top: 10px;
+  }
+ .botonDos{
+    margin-top: 10px;
+    background-color: rgb(215, 56, 56);
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0 0 5px ;
+    transition: all 0.8s ease-in-out;
+    width: 100px;
+    border: none;
+
+ }
+ .botonDos:hover {
+    scale: 1.1;
+    box-shadow: 0 0 15px ;
+    
+ }
+
+
+
+ /***/
+
+ 
+
 
 
 

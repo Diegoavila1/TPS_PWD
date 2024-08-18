@@ -77,7 +77,7 @@
 
         <div class="row ">
 
-            <div class="col">
+            <div id= "content" class="col">
                 <h1>Consigna: 7</h1>
                 <p>
                     Crear una página con un formulario que contenga dos input de tipo text y un select. En
@@ -89,36 +89,38 @@
             </div>
         </div>
 
-        <div class="row mt-5">
+        <div id="contenedorEj6"class="row mt-5">
             <div class="col">
                 <h1>Resolucion:</h1>
 
                 <form action="formAction.php" method="get">
                     
                     <label for="">Ingrese un numero X</label>
-                    <br>
-                    <input type="text" name="numUno" id="">
+                    
+                    <input class="form-control ancho-input" type="text" name="numUno" id="">
                     <br>
                     <label for="">Ingrese un numero Y</label>
                     <br>
-                    <input type="text" name="numDos" id="">
+                    <input class="form-control ancho-input" type="text" name="numDos" id="">
                     <br>
-                    <select name="selects" id="">
-                        <option value="sumar">sumar</option>
-                        <option value="restar">restar</option>
-                        <option value="multiplicar">multiplicar</option>
-                    </select>
-                    <br>
-                    <input type="submit" name="" id="">
 
+                    <select class="form-select ancho-input" name="selects" id="">
+                        <option value="sumar">Sumar</option>
+                        <option value="restar">Restar</option>
+                        <option value="multiplicar">Multiplicar</option>
+                    </select>
+                    
+                    <br>
+                    <input class="boton" type="submit" name="" id="">
+                  
                 </form>
-                
+
             </div>
         </div>
 
         <div class="row  mt-5">
             <div class="col">
-                <img src="imagenes/dos.png" alt="" style="width: 50%;">
+                <img src="../../../imagenes/form7Get.png" alt="" class="img-codigo">
             </div>
         </div>
 

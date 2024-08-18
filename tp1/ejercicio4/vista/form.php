@@ -1,4 +1,4 @@
-  
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +24,6 @@
 
 <header class="navbar">
     <nav class="container-fluid d-flex rounded-bg shadow-lg">
-
     <div class=" d-flex justify-content-start ">
       <a class="navbar-brand" href="../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
@@ -64,72 +63,64 @@
           <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
           <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
         </ul>
-
       </div>
-
       </div>
 
       <div class="justify-content-end m-1 p-2">
         <img src="../../../imagenes/pedco.jpg" alt="">
         <img src="../../../imagenes/githubLogo.png" alt="">
       </div>
+
     </nav>
-    
-
-    
+        
   </header>
- <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
 
-            <div class="row ">
+      <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
 
-            <div class="col">
+                    
+      <div id="content"class="row ">
+            <div class="col" id="content">
                 <h1>Consigna: 4</h1>
                 <p>
-                    Modificar el formulario del ejercicio anterior para que usando la edad solicitada, enviar
-                    esos datos a otra página en donde se muestren mensajes distintos dependiendo si la
-                    persona es mayor de edad o no; (si la edad es mayor o igual a 18).
-                    Enviar los datos usando el método GET y luego probar de modificar los datos
-                    directamente en la url para ver los dos posibles mensajes. </p>
-            </div>
-        </div>
+                Modificar el formulario del ejercicio anterior para que usando la edad solicitada, enviar
+                esos datos a otra página en donde se muestren mensajes distintos dependiendo si la
+                persona es mayor de edad o no; (si la edad es mayor o igual a 18).
+                Enviar los datos usando el método GET y luego probar de modificar los datos
+                directamente en la url para ver los dos posibles mensajes. </p>
+                            </div>
+      </div>
 
         <div class="row mt-5">
-            <div class="col">
-                <h1>Resolucion:</h1>
-
-                <form action="formAction.php" method="post">
-                    Nombre : <input type="text" name="nombre" id="" style="display:block">
-                    Apellido : <input type="text" name="apellido" id="" style="display:block">
-                    Edad :<input type="number" name="edad" id="" style="display:block">
-                    Dirrecion : <input type="text" name="direccion" id="" style="display:block">
-                    <input type="submit" name="" id="">
-                </form>
-
-                <form action="formAction.php" method="get">
-                    Nombre : <input type="text" name="nombre" id="" style="display:block">
-                    Apellido : <input type="text" name="apellido" id="" style="display:block">
-                    Edad :<input type="number" name="edad" id="" style="display:block">
-                    Dirrecion : <input type="text" name="direccion" id="" style="display:block">
-                    <input type="submit" name="" id="">
-                </form>
-
+                
+                <div class="col" id="contenedorUno">
+                  
+                    <form action="formAction.php" class="formulario" method="get">
+                        <h1>GET</h1>
+                        Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+                        Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+                        Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+                        Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+                        <button type="submit" class="boton">Enviar</button>
+                    </form>
+                </div>
             </div>
         </div>
-
-        <div class="row mt-5">
-            <div class="col">
-                <img src="imagenes/dos.png" alt="" style="width: 50%;">
-            </div>
+      <div class="fotosPostGet">
+        <div class="row  mt-5" id="getfoto">
+                <div class="col">
+                  <h1>GET</h1>
+                  <img src="../../../imagenes/form3Get.png" alt="" class="img-codigo">
+                </div>
         </div>
-
+        </div>
 
         </div>
 
 
         
- </main>
+      </main>
 
- <footer class="container-fluid d-flex justify-content-between bg-dark shadow-lg ">
+      <footer class="container-fluid d-flex justify-content-between bg-dark shadow-lg ">
 
 <div class="row text-light">
   <ul class="" style="list-style-type: none; padding-left: 60px; margin-top:14% ; margin-bottom:14%;">

@@ -17,14 +17,13 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../style.css?v=2.5">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
 
 <header class="navbar">
     <nav class="container-fluid d-flex rounded-bg shadow-lg">
-      
     <div class=" d-flex justify-content-start ">
       <a class="navbar-brand" href="../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
@@ -66,72 +65,93 @@
         </ul>
       </div>
       </div>
+
       <div class="justify-content-end m-1 p-2">
         <img src="../../../imagenes/pedco.jpg" alt="">
         <img src="../../../imagenes/githubLogo.png" alt="">
       </div>
-    
+
     </nav>
-    
-
-  </header>
-  
- <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
-
-           <div class="row ">
-
-            <div class="col">
-                  <!---->
-                <h1>Consigna: 5</h1>
-                <p>
-                Modificar el formulario del ejercicio anterior solicitando, tal que usando componentes
-                “radios buttons” se ingrese el nivel de estudio de la persona: 1-no tiene estudios, 2-
-                estudios primarios, 3-estudios secundarios. Agregar el componente que crea más
-                apropiado para solicitar el sexo. En la página que procesa el formulario mostrar además
-                un mensaje que indique el tipo de estudios que posee y su sexo. </p>
-            </div>
-        </div>
-
-        <div class="row  mt-5">
-            <div class="col">
-                <h1>Resolucion:</h1>
-                <form action="formAction.php" method="get">
-        Nombre : <input type="text" name="nombre" id="" style="display:block">
-        Apellido : <input type="text" name="apellido" id="" style="display:block">
-        Edad :<input type="number" name="edad" id="" style="display:block">
-        Dirrecion : <input type="text" name="direccion" id="" style="display:block">
-
-        <input type="radio" name="nivelEstudio" id="" value="sinEstudios">No tiene estudios
-        <input type="radio" name="nivelEstudio" id="" value="estPrimario">Estudios primarios
-        <input type="radio" name="nivelEstudio" id="" value="estSecundario">Estudios secundarios
-
-        <br>
-
-        <select name="genero" id="">
-            <option value="Femenino">Femenino</option>
-            <option value="Masculino">Masculino</option>
-        </select>
-
-        <input type="submit" name="" id="">
-
-    </form>
-                </div>
-        </div>
-
-        <div class="row  mt-5">
-            <div class="col">
-                <img src="imagenes/dos.png" alt="" style="width: 50%;">
-            </div>
-        </div>
-
-
-        </div>
-
-
         
- </main>
+  </header>
 
- <footer class="container-fluid d-flex justify-content-between bg-dark shadow-lg ">
+  <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
+
+<div class="row ">
+
+ <div id="content"class="col">
+       <!---->
+     <h1>Consigna: 5</h1>
+     <p>
+     Modificar el formulario del ejercicio anterior solicitando, tal que usando componentes
+     “radios buttons” se ingrese el nivel de estudio de la persona: 1-no tiene estudios, 2-
+     estudios primarios, 3-estudios secundarios. Agregar el componente que crea más
+     apropiado para solicitar el sexo. En la página que procesa el formulario mostrar además
+     un mensaje que indique el tipo de estudios que posee y su sexo. </p>
+ </div>
+</div>
+
+<div class="row  mt-5">
+ <div class="col" id="contenedor">
+     
+     <form action="formAction.php" method="get">
+      Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block">
+      Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block">
+      Edad :<input  class="form-control ancho-input"type="number" name="edad" id="" style="display:block">
+      Direccion : <input  class="form-control ancho-input" type="text" name="direccion" id="" style="display:block">
+      
+      <ul class="list-unstyled">
+    <li>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="nivelEstudio" id="sinEstudios" value="sinEstudios">
+        <label class="form-check-label" for="sinEstudios">
+          No tiene estudios
+        </label>
+      </div>
+    </li>
+    <li>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="nivelEstudio" id="estPrimario" value="estPrimario">
+        <label class="form-check-label" for="estPrimario">
+          Estudios primarios
+        </label>
+      </div>
+    </li>
+    <li>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="nivelEstudio" id="estSecundario" value="estSecundario">
+        <label class="form-check-label" for="estSecundario">
+          Estudios secundarios
+        </label>
+      </div>
+    </li>
+  </ul>
+
+      <select class="form-select ancho-input" name="genero" id="">
+      <option value="Femenino">Femenino</option>
+      <option value="Masculino">Masculino</option>
+      </select>
+      <br>
+      <input class="boton" type="submit" name="" id="">
+
+      </form>
+          </div>
+      </div>
+
+      <div class="row  mt-5">
+      <div class="col">
+          <img src="../../../imagenes/form5Get.png" alt="" class="img-codigo">
+      </div>
+      </div>
+
+
+</div>
+
+
+
+</main>
+
+      <footer class="container-fluid d-flex justify-content-between bg-dark shadow-lg ">
 
 <div class="row text-light">
   <ul class="" style="list-style-type: none; padding-left: 60px; margin-top:14% ; margin-bottom:14%;">

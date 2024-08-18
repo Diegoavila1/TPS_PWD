@@ -26,7 +26,7 @@
     <nav class="container-fluid d-flex rounded-bg shadow-lg">
 
     <div class=" d-flex justify-content-start ">
-      <a class="navbar-brand" href="../../../index.html">
+      <a class="navbar-brand img-house" href="../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
         
       <div class="dropdown me-2 mt-1">
@@ -82,21 +82,21 @@
 
       <div class="row ">
 
-            <div class="col">
+            <div id="content" class="col">
                 <h1>Consigna: 8</h1>
                 <p>
                     La empresa de Cine Cinem@s tiene establecidas diferentes tarifas para las entradas, en
                     función de la edad y de la condición de estudiante del cliente. Desea que sean los propios
-                    clientes los que puedan calcular el valor de sus entradas a través de una página web. Si
+                    clientes los que puedan calcular el valor de sus entradas a través de una página web.<br> Si
                     es estudiante o menor de 12 años el precio es de $160, si es estudiante y mayor o igual
-                    de 12 años el precio es de $180, en cualquier otro caso el precio es de $300. Diseñar un
-                    formulario que solicite la edad y permita ingresar si se trata de un estudiante o no. Con
+                    de 12 años el precio es de $180, en cualquier otro caso el precio es de $300.<br> Diseñar un
+                    formulario que solicite la edad y permita ingresar si se trata de un estudiante o no.<br> Con
                     un botón enviar los datos a un script encargado de realizar el cálculo y visualizarlo.
-                    Agregar un botón para limpiar el formulario y volver a consultar. </p>
+                    <br>Agregar un botón para limpiar el formulario y volver a consultar. </p>
             </div>
         </div>
 
-        <div class="row  mt-5">
+        <div id="contenedorEj6"class="row  mt-5">
             <div class="col">
                 <h1>Resolucion:</h1>
                 <h1>Cinem@s</h1>
@@ -104,15 +104,15 @@
 
                     <label for="">Ingrese la edad</label>
                     <br>
-                    <input type="text" name="edad" id="">
+                    <input class="form-control ancho-input"type="text" name="edad" id="">
                     <br>
-                    <select name="selects" id="">
-                        <option value="ninguno">ninguno</option>
-                        <option value="estudiante">estudiante</option>
+                    <select class="form-select ancho-input" name="selects" id="">
+                        <option value="ninguno">Ninguno</option>
+                        <option value="estudiante">Estudiante</option>
                     </select>
                     <br>
-                    <input type="submit" name="" id="">
-                    <input type="reset" name="" id="">
+                    <input class="boton" type="submit" name="" id="">
+                    <input class="botonDos" type="reset" name="" id="">
 
                 </form>
             </div>
@@ -120,7 +120,7 @@
 
         <div class="row  mt-5">
             <div class="col">
-                <img src="imagenes/dos.png" alt="" style="width: 50%;">
+                <img src="../../../imagenes/form8Post.png" alt="" class="img-codigo">
             </div>
         </div>
 

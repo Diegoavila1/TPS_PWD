@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -76,9 +77,9 @@
 
       <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
 
-                    <div class="row ">
-
-            <div class="col">
+                    
+      <div class="row ">
+            <div class="col" id="content">
                 <h1>Consigna: 3</h1>
                 <p>
                     Crear una página php que contenga un formulario HTML como el que se indica en la
@@ -87,7 +88,7 @@
                     nombre , apellido tengo edad años y vivo en dirección”, usando la información recibida.
                     Cambiar el método Post por Get y analizar las diferencias </p>
             </div>
-        </div>
+      </div>
 
         <div class="row mt-5">
                 
@@ -102,7 +103,7 @@
                         Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
                         Direcion : <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
                         <button type="submit" class="boton">Enviar</button>                    
-                      </form>
+                    </form>
 
                   </div>
                   
@@ -114,48 +115,52 @@
                         Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
                         Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
                         <button type="submit" class="boton">Enviar</button>
-                      </form>
+                    </form>
                   </div>
                 </div>
             </div>
         </div>
         <div class="respuesta">
-          <?php
-    include "../control/persona.php";
-    include "../Utiles/funciones.php";
+            <?php
+            include "../control/persona.php";
+            include "../Utiles/funciones.php";
 
-    if($_POST){
-        
-        $datos = data_submitted();
-        $objPersona = new persona();
+            if($_POST){
+                
+                $datos = data_submitted();
+                $objPersona = new persona();
 
-        echo $objPersona->descripcionPersona($datos);
+                echo $objPersona->descripcionPersona($datos);
 
-    }else{
-        echo "";
-    }
+            }else{
+                echo "";
+            }
 
-    if($_GET){
+            if($_GET){
 
-        $datos = data_submitted();
-        $objPersona = new persona();
+                $datos = data_submitted();
+                $objPersona = new persona();
 
-        echo $objPersona->descripcionPersona($datos);
-    
-    }else{
-        echo "";
-    }
-    ?>
+                echo $objPersona->descripcionPersona($datos);
+            
+            }else{
+                echo "";
+            }
+            ?>
         </div>
+
+        
       <div class="fotosPostGet">
         <div class="row  mt-5">
                 <div class="col" id="postfoto">
-                <img src="../../../imagenes/form3a.png" alt="" class="img-codigo">
+                  <h1>POST</h1>
+                  <img src="../../../imagenes/form3Post.png" alt="" class="img-codigo">
                 </div>
         </div>
         <div class="row  mt-5" id="getfoto">
                 <div class="col">
-                <img src="../../../imagenes/form3b.png" alt="" class="img-codigo">
+                  <h1>GET</h1>
+                  <img src="../../../imagenes/form3Get.png" alt="" class="img-codigo">
                 </div>
         </div>
         </div>

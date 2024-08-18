@@ -74,7 +74,7 @@
   
       <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
 
-              <div class="row">
+              <div id="content"class="row">
 
                 <div class="col">
                   <h1>Consigna: 2</h1>
@@ -86,7 +86,7 @@
                 </div>
               </div>
             
-              <div class="row mt-5">
+              <div id="contenedorEj1" class="row mt-5">
                 <form action="action/formAction.php" method="get">
                   <label for="">Ingrese las horas de cursada de jueves:</label>
                   <br> 
