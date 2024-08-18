@@ -95,7 +95,7 @@
 
         <div class="container mt-5 shadow p-3 mb-5 bg-body rounded bg-dark" style="max-width: 25%; justify-content: center;">
           <h1 class="mb-4">Member Login</h1>
-        <form id="form" action="../vista/verificarPass.php" method="post">
+        <form id="form" action="verificaPass.php" method="post">
             <div class="mb-3">
             <label for="name" class="form-label">Nombre:</label>
             <input type="text" id="name" name="name" class="form-control">
