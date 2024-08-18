@@ -2,17 +2,19 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!--BOOSTRAP-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!--BOOSTRAP-->
-  <link rel="stylesheet" href="../../../style.css">
+
+  <link rel="stylesheet" href="../../../style.css?v=2.5">
+
   <title>Practicos PWD</title>
+
 </head>
 
 <body>
@@ -68,11 +70,11 @@
   </header>
 
   <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
-  <div class="row ">
+  <div class="row">
 
     <div class="col">
       <h1>Consigna: 1 </h1>
-      <p>
+      <p class="pFont">
         Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe
         llamar a un script –vernumero.php- y visualizar un mensaje que indique si el número
         enviado fue: positivo, cero o negativo. Añadir un link, a la página que visualiza la
@@ -87,6 +89,7 @@
 
     <form action="formAction.php" method="get">
     <label for="">Ingrese un numero:</label>
+    <br>
     <input type="number" name="num" id="">
     <button type="submit">Enviar</button>
     </form>
@@ -121,8 +124,8 @@
   <div class="col">
     <p class="text-light mt-5">Programacion Web Dinamica 2024 @</p>
   </div>
-
 </div>
+
 </footer>
 
 </body>
