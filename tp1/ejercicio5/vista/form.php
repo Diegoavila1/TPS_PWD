@@ -66,10 +66,10 @@
         </ul>
       </div>
       </div>
-      <div class="justify-content-end m-1 p-2"> 
-      <img src="../imagenes/pedco.jpg" alt="">
-      <img src="../imagenes/githubLogo.p" alt="">
-     </div>
+      <div class="justify-content-end m-1 p-2">
+        <img src="../../../imagenes/pedco.jpg" alt="">
+        <img src="../../../imagenes/githubLogo.png" alt="">
+      </div>
     
     </nav>
     
