@@ -1,9 +1,16 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
+   
 }
+
+body{
+     cursor:url("../imagenes/cursor.png");
+}
+
 img{
     width:40px;
 }
+
 
 .img-house{
     padding-top: 0;

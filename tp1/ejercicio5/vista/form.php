@@ -94,12 +94,12 @@
 <div class="row  mt-5">
  <div class="col" id="contenedor">
      
-     <form action="formAction.php" method="get">
-      Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block">
-      Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block">
-      Edad :<input  class="form-control ancho-input"type="number" name="edad" id="" style="display:block">
-      Direccion : <input  class="form-control ancho-input" type="text" name="direccion" id="" style="display:block">
-      
+<form action="formAction.php" method="get">
+  Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block">
+  Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block">
+  Edad :<input  class="form-control ancho-input"type="number" name="edad" id="" style="display:block">
+  Direccion : <input  class="form-control ancho-input" type="text" name="direccion" id="" style="display:block">
+</form>
       <ul class="list-unstyled">
     <li>
       <div class="form-check">

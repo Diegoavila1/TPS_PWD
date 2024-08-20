@@ -96,28 +96,28 @@
                
                   <div class="col" id="post">
                     
-                    <form action="formAction.php" method="post">
-                        <h1>POST</h1>
-                        Nombre :<input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                        Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                        Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                        Direcion : <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-                        <button type="submit" class="boton">Enviar</button>                    
-                    </form>
+<form action="formAction.php" method="post">
+  <h1>POST</h1>
+    Nombre :<input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+    Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+    Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+    Direcion : <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+    <button type="submit" class="boton">Enviar</button>                    
+</form>
 
                   </div>
                   
                   <div class="col" id="get">
-                    <form action="formAction.php" method="get">
-                        <h1>GET</h1>
-                        Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                        Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                        Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                        Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-                        <button type="submit" class="boton">Enviar</button>
-                    </form>
+<form action="formAction.php" method="get">
+  <h1>GET</h1>
+    Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+    Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+    Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+    Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+    <button type="submit" class="boton">Enviar</button>
+</form>
                   </div>
-                </div>
+                </div>w
             </div>
         </div>
       <div class="fotosPostGet">

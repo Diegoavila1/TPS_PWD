@@ -94,14 +94,14 @@
                 
                 <div class="col" id="contenedorUno">
                   
-                    <form action="formAction.php" class="formulario" method="get">
-                        <h1>GET</h1>
-                        Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                        Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                        Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                        Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-                        <button type="submit" class="boton">Enviar</button>
-                    </form>
+                  <form action="formAction.php" class="formulario" method="get">
+                    <h1>GET</h1>
+                      Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+                      Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+                      Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+                      Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+                      <button type="submit" class="boton">Enviar</button>
+                  </form>
                 </div>
             </div>
         </div>
@@ -109,11 +109,10 @@
         <div class="row  mt-5" id="getfoto">
                 <div class="col">
                   <h1>GET</h1>
-                  <img src="../../../imagenes/form3Get.png" alt="" class="img-codigo">
+                  <img src="../../../imagenes/form4Get.png" alt="" class="img-codigo">
                 </div>
         </div>
         </div>
-
         </div>
 
 

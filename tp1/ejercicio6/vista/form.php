@@ -90,33 +90,25 @@
 
         <div class="row  mt-5">
             <div id="contenedorEj6"class="col">
-                <form class="checkForm" action="formAction.php" method="get">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="futbol" id="futbol">
-                      <label class="form-check-label" for="futbol">
-                        Fútbol
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="basket" id="basket">
-                      <label class="form-check-label" for="basket">
-                        Basket
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="tennis" id="tennis">
-                      <label class="form-check-label" for="tennis">
-                        Tenis
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="voley" id="voley">
-                      <label class="form-check-label" for="voley">
-                        Vóley
-                      </label>
-                    </div>
-                    <button class="boton" type="submit">Enviar</button>
-                </form>
+<form class="checkForm" action="formAction.php" method="get">
+  <div class="form-check">
+   <input class="form-check-input" type="checkbox" name="futbol" id="futbol">
+   <label class="form-check-label" for="futbol">Fútbol</label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" name="basket" id="basket">
+    <label class="form-check-label" for="basket">Basket</label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" name="tennis" id="tennis">
+    <label class="form-check-label" for="tennis">Tenis</label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" name="voley" id="voley">
+    <label class="form-check-label" for="voley">Vóley</label>
+  </div>
+  <button class="boton" type="submit">Enviar</button>
+</form>
             </div>
         </div>
 

@@ -98,23 +98,22 @@
 
         <div id="contenedorEj6"class="row  mt-5">
             <div class="col">
-                <h1>Resolucion:</h1>
-                <h1>Cinem@s</h1>
-                <form action="formAction.php" method="post">
-
-                    <label for="">Ingrese la edad</label>
-                    <br>
-                    <input class="form-control ancho-input"type="text" name="edad" id="">
-                    <br>
-                    <select class="form-select ancho-input" name="selects" id="">
-                        <option value="ninguno">Ninguno</option>
-                        <option value="estudiante">Estudiante</option>
-                    </select>
-                    <br>
-                    <input class="boton" type="submit" name="" id="">
-                    <input class="botonDos" type="reset" name="" id="">
-
-                </form>
+                
+<form action="formAction.php" method="post">
+  <h1>Resolucion:</h1>
+  <h1>Cinem@s</h1>
+  <label for="">Ingrese la edad</label>
+  <br>
+  <input class="form-control ancho-input"type="text" name="edad" id="">
+  <br>
+  <select class="form-select ancho-input" name="selects" id="">
+      <option value="ninguno">Ninguno</option>
+      <option value="estudiante">Estudiante</option>
+  </select>
+  <br>
+  <input class="boton" type="submit" name="" id="">
+  <input class="botonDos" type="reset" name="" id="">
+</form>
             </div>
         </div>
 
