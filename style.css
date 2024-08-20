@@ -18,7 +18,10 @@ img{
 
 p , label {
     font-size: 18px;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
+
 
 .btn-verde {
     background-color: rgb(42, 202, 68); 
@@ -29,17 +32,32 @@ p , label {
     width: 200px;
 }
 
+.btn-volver{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    transition: background-color 0.3s ease;
+}
 
 .boton{
-    background-color: rgb(42, 202, 68); 
-    color: black;
-    border-radius: 4px;
-    box-shadow: 0 0 5px ;
-    transition: all 0.8s ease-in-out;
-
-    width: 100px;
-    border: none;
-    margin-right: 10px;
+        background-color: #4CAF50; /* Verde */
+        color: white;
+        border: none;
+        padding: 10px 33px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
    
 }
 #contenedorEj6 {
@@ -57,7 +75,7 @@ p , label {
   }
   
   #contenedorEj1 label {
-    margin-bottom: 5px; /* Espacio entre la etiqueta y el campo de entrada */
+    margin-bottom: 10px; /* Espacio entre la etiqueta y el campo de entrada */
     font-weight: bold; /* Resalta las etiquetas */
   }
   
@@ -83,10 +101,7 @@ p , label {
 }
 
 .boton:hover {
-    scale: 1.1;
-    background-color: rgb(53, 255, 85);
-    transition-duration: 1s ease-in-out;
-    box-shadow: 0 0 15px ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     
 }
 
@@ -155,27 +170,34 @@ p , label {
     margin-top: 10px;
   }
  .botonDos{
-    margin-top: 10px;
-    background-color: rgb(215, 56, 56);
-    color: black;
-    border-radius: 4px;
-    box-shadow: 0 0 5px ;
-    transition: all 0.8s ease-in-out;
-    width: 100px;
+    background-color: #FF0000; /* Rojo */
+    color: white;
     border: none;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
 
  }
  .botonDos:hover {
-    scale: 1.1;
-    box-shadow: 0 0 15px ;
+    background-color: #D60000; /* Rojo más oscuro */
     
  }
 
 
+.main-h1{
+    min-height: 600px;
+    background-color: #00aaff;
+    width: 64%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
- /***/
-
- 
 
 
 

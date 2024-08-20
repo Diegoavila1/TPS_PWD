@@ -71,12 +71,12 @@
   <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
   <div class="row ">
 
-    <div class="col">
+    <div class="col" id="content">
       <h1>Consigna: 1 </h1>
-      <p>
-      Crear un formulario HTML que permita subir un archivo. En el servidor se deberá 
+      <p class="pFont">
+      Crear un formulario HTML que permita subir un archivo. <br>En el servidor se deberá 
       controlar, antes de guardar el archivo, que los tipos validos son .doc o pdf y además el tamaño 
-      máximo permitido es de 2mb. En caso que se cumplan las condiciones mostrar un link al archivo 
+      máximo permitido es de 2mb.<br> En caso que se cumplan las condiciones mostrar un link al archivo 
       cargado, en caso contrario mostrar un mensaje indicando el problema</p>
     </div>
   </div>
@@ -84,19 +84,16 @@
   <div class="row  mt-5">
     <div class="col">
 
-    <h1>Resolucion:</h1>
-
     <form method="POST" action="action/subirArchivo.php" enctype="multipart/form-data">
-    Ingresa el archivo: <input type="file" name="miArchivo" id="miArchivo" />
-    <input type="submit" value="Subir archivo" />
+      Ingresa el archivo: <input type="file" name="miArchivo" id="miArchivo" />
+      <input type="submit" value="Subir archivo" />
     </form>
 
   </div>
 
   <div class="row  mt-5">
     <div class="col">
-      <p>MOSTRAR CODIGO</p>
-      <img src="" alt="" style="width: 50%;">
+      <img src="../../../imagenes/formTp3Ej1.png" alt="" class="img-codigo">
     </div>
   </div>
 

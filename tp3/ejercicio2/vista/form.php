@@ -80,33 +80,31 @@
   <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
   <div class="row ">
 
-    <div class="col">
+    <div class="col" id="content">
       <h1>Consigna: 2 </h1>
-      <p>
-      Crear un formulario que permita subir un archivo. En el servidor se deberá controlar 
+      <p class="pFont">
+      Crear un formulario que permita subir un archivo.<br> En el servidor se deberá controlar 
       que el tipo esperado sea txt (texto plano), si es correcto deberá abrir el archivo y mostrar su 
       contenido en un textarea.
-      (OBS: Referencia a funciones para trabajar con archivos http://php.net/manual/en/ref.filesystem.php).</p>
+      <br>(OBS: Referencia a funciones para trabajar con archivos http://php.net/manual/en/ref.filesystem.php).</p>
     </div>
   </div>
 
   <div class="row  mt-5">
     <div class="col">
 
-    <h1>Resolucion:</h1>
-
     <form action="formAction.php" method="get">
     <label for="">Ingrese un numero:</label>
     <input type="number" name="num" id="">
-    <button type="submit">Enviar</button>
+    <br>
+    <button type="submit" class="boton">Enviar</button>
     </form>
 
   </div>
 
   <div class="row  mt-5">
     <div class="col">
-      <p>MOSTRAR CODIGO</p>
-      <img src="" alt="" style="width: 50%;">
+      <img src="../../../imagenes/formTp3Ej2.png" alt="" class="img-codigo">
     </div>
   </div>
 
