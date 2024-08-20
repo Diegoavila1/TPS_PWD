@@ -16,7 +16,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css?v=2.5">
+    <link rel="stylesheet" href="../../../style.css?v=2.2">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -96,7 +96,7 @@
                   <br> 
                   <input class="form-control ancho-input" type="" name="viernes" id="">
                   <br>
-                  <button class="boton" type="submit">Enviar</button>
+                  <button class="boton" type="submit" style="margin-left: 74%;">Enviar</button>
                 </form>
               </div>
 

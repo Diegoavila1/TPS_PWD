@@ -17,7 +17,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../style.css?v=2.2">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -104,7 +104,7 @@
 
                     <label for="">Ingrese la edad</label>
                     <br>
-                    <input class="form-control ancho-input"type="text" name="edad" id="">
+                    <input class="form-control ancho-input"type="text" name="edad">
                     <br>
                     <select class="form-select ancho-input" name="selects" id="">
                         <option value="ninguno">Ninguno</option>

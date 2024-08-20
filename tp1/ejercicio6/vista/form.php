@@ -115,7 +115,7 @@
                         Vóley
                       </label>
                     </div>
-                    <button class="boton" type="submit">Enviar</button>
+                    <button class="boton" type="submit" >Enviar</button>
                 </form>
             </div>
         </div>

@@ -78,9 +78,9 @@
 
     <div class="row ">
 
-      <div class="col">
+      <div class="col" id="content">
         <h1>Consigna: 1 </h1>
-        <p>
+        <p class="pFont">
           Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe
           llamar a un script –vernumero.php- y visualizar un mensaje que indique si el número
           enviado fue: positivo, cero o negativo. Añadir un link, a la página que visualiza la
@@ -90,10 +90,8 @@
 
     <div class="row ">
       <div class="col">
-
-        <h1>Resolucion:</h1>
-
-        <div class="container mt-5 shadow p-3 mb-5 bg-body rounded bg-dark" style="max-width: 25%; justify-content: center;">
+        
+        <div class="container mt-5 shadow p-3 mb-5 bg-body rounded bg-dark" style="max-width: 40%; justify-content: center;">
           <h1 class="mb-4">Member Login</h1>
         <form id="form" action="verificaPass.php" method="post">
             <div class="mb-3">
@@ -118,8 +116,7 @@
 
     <div class="row mt-5">
       <div class="col">
-        <p>MOSTRAR CODIGO</p>
-        <img src="" alt="" style="width: 50%;">
+        <img src="../../../imagenes/formTp2Ej1.png" alt="" class="img-codigo">
       </div>
     </div>
 

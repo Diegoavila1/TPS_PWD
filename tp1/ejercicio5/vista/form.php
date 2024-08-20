@@ -17,7 +17,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css?v=2.5">
+    <link rel="stylesheet" href="../../../style.css?v=2.6">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -132,7 +132,7 @@
       <option value="Masculino">Masculino</option>
       </select>
       <br>
-      <input class="boton" type="submit" name="" id="">
+      <input class="boton" type="submit" name="" id=""  style="margin-left: 50%;">
 
       </form>
           </div>

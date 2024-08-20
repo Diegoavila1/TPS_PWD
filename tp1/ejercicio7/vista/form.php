@@ -98,7 +98,6 @@
                     <label for="">Ingrese un numero X</label>
                     
                     <input class="form-control ancho-input" type="text" name="numUno" id="">
-                    <br>
                     <label for="">Ingrese un numero Y</label>
                     <br>
                     <input class="form-control ancho-input" type="text" name="numDos" id="">
@@ -111,7 +110,7 @@
                     </select>
                     
                     <br>
-                    <input class="boton" type="submit" name="" id="">
+                    <input class="boton" type="submit" name="" id=""  style="margin-left: 30%;">
                   
                 </form>
 

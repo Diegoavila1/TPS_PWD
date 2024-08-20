@@ -95,7 +95,7 @@
             </div>
         </div>
 
-        <div id="contenedorEj6"class="row  mt-5">
+        <div id="contenedorEj6"class="row  mt-5 text-center">
             <div class="col">
             <?php
 
@@ -111,7 +111,8 @@
                     echo $objCinemos->calcularTarifa($datos);
                 }
                 ?>
-                <button><a href="../../ejercicio8/vista/form.php">Volver</a></button>
+                <br>
+                <button class="btn-volver"><a href="../../ejercicio8/vista/form.php">Volver</a></button>
             </div>
         </div>
         </div>
