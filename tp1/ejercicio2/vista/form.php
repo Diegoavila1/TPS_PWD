@@ -16,7 +16,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css?v=2.2">
+    <link rel="stylesheet" href="../../../style.css?v=2.3">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -86,18 +86,24 @@
                 </div>
               </div>
             
-              <div id="contenedorEj1" class="row mt-5">
-                <form action="action/formAction.php" method="get">
-                  <label for="">Ingrese las horas de cursada de jueves:</label>
-                  <br> 
-                  <input class="form-control ancho-input" type="" name="jueves" id="">
-                  <br>
-                  <label for="">Ingrese las horas de cursada de viernes:</label>
-                  <br> 
-                  <input class="form-control ancho-input" type="" name="viernes" id="">
-                  <br>
-                  <button class="boton" type="submit" style="margin-left: 74%;">Enviar</button>
-                </form>
+              <div class="row mt-5">
+                <div class="col">
+                  <div id="contenedorEj1" class="bg-body rounded">
+
+                      <form action="action/formAction.php" method="get" style="  text-align: center;">
+                      <label for="">Ingrese las horas de cursada de jueves:</label>
+                      <br> 
+                      <input class="form-control ancho-input" type="" name="jueves" id=""  placeholder="Ejemplo : 2">
+                      <br>
+                      <label for="">Ingrese las horas de cursada de viernes:</label>
+                      <br> 
+                      <input class="form-control ancho-input" type="" name="viernes" id="" placeholder="Ejemplo : 4">
+                      <br>
+                      <button class="boton" type="submit">Enviar</button>
+                    </form>
+
+                  </div>
+                </div>
               </div>
 
               <div class="row  mt-5">

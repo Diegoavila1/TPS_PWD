@@ -11,7 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!--BOOSTRAP-->
 
-  <link rel="stylesheet" href="../../../../style.css?v=2.2">
+  <link rel="stylesheet" href="../../../../style.css?v=2.3">
 
   <title>Practicos PWD</title>
 
@@ -71,7 +71,7 @@
   <main class="container shadow-lg rounded-top" style="min-height: 600px; background-color : #00aaff ; width: 64%;">
   <div class="row">
 
-    <div id="content" class="col">
+    <div id="content" class="col" >
       <h1>Consigna: 1 </h1>
       <p class="pFont">
         Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe
@@ -83,7 +83,7 @@
 
   <div class="row  mt-5">
     <div class="col">
-      <div id="contenedorEj1">
+      <div id="contenedorEj1" class="bg-body rounded text-center">
       <?php
 
           include "../../control/verNumero.php";

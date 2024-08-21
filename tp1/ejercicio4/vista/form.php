@@ -17,7 +17,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css?v=2.3">
+    <link rel="stylesheet" href="../../../style.css?v=2.6">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -94,16 +94,6 @@
                 
                 <div class="col" id="contenedorUno">
                   
-<<<<<<< HEAD
-                  <form action="formAction.php" class="formulario" method="get">
-                    <h1>GET</h1>
-                      Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                      Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                      Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                      Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-                      <button type="submit" class="boton">Enviar</button>
-                  </form>
-=======
                     <form action="formAction.php" class="formulario" method="get">
                         <h1>GET</h1>
                         <label for="">Nombre :</label>
@@ -116,7 +106,6 @@
                         <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
                         <button type="submit" class="boton"  style="margin-left: 55%;">Enviar</button>
                     </form>
->>>>>>> 40e85fb876deb613e0c0f1370c93997538cef817
                 </div>
             </div>
         </div>

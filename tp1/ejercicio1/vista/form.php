@@ -11,7 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <!--BOOSTRAP-->
 
-  <link rel="stylesheet" href="../../../style.css?v=2.2">
+  <link rel="stylesheet" href="../../../style.css?v=2.3">
 
   <title>Practicos PWD</title>
 
@@ -83,13 +83,14 @@
 
   <div class="row  mt-5">
     <div class="col">
-    <form action="action/action.php" method="get">
-      <div id="contenedorEj1">
+    <div id="contenedorEj1" class="bg-body oundedr">
+
+    <form action="action/action.php" method="get" style="  text-align: center;">
           <label for="num" class="">Ingrese un número:</label>
           <input type="number" class="form-control ancho-input" name="num" id="num" placeholder="Escribe un número">
-          <button type="submit" class="boton" style="margin-left: 74%;">Enviar</button>
-      </div>
+          <button type="submit" class="boton">Enviar</button>
     </form>
+    </div>
 
   </div>
 

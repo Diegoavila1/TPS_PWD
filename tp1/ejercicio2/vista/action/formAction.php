@@ -27,7 +27,7 @@
 
         <div class="dropdown me-2 mt-1"> 
           <button class="btn btn-primary btn dropdown-toggle " type="button" data-bs-toggle="dropdown">
-            Practico 1
+            Practico 2
           </button>
           <ul class="dropdown-menu" role="menu">
             <li><a class="dropdown-item" href="../../ejercicio1/vista/form.php" id="ejercicio1.php">ejercicio 1</a></li>
@@ -72,20 +72,20 @@
   <div class="row">
 
     <div id="content" class="col">
-      <h1>Consigna: 1 </h1>
+      <h1>Consigna: 2 </h1>
       <p class="pFont">
-        Confeccionar un formulario que solicite un número. Al pulsar el botón de enviar debe
-        llamar a un script –vernumero.php- y visualizar un mensaje que indique si el número
-        enviado fue: positivo, cero o negativo. Añadir un link, a la página que visualiza la
-        respuesta, que permita volver a la página anterior.</p>
+      Crear un script php que guarde en diferentes variables su nombre, apellido, edad
+      y dirección y luego muestre en pantalla estos datos con letra mayúscula. 
+      Cuando ejecute la pagina dentro del navegador, observe el código fuente y analice las
+      diferencias entre el código escrito y el código que esta viendo. </p>
     </div>
   </div>
 
   <div class="row  mt-5">
     <div class="col">
+      <div id="contenedorEj1" class="bg-body rounded">
 
-       <?php
-
+      <?php
             include "../../control/HorasCursadas.php";
             include "../../Utiles/funciones.php";
 
@@ -98,7 +98,7 @@
                 
                 $obj = new HorasCursadas();
                 echo "<br>";
-                echo $obj->mostrarHorasCatedra($datos);
+                echo '<p class="text-center">'.$obj->mostrarHorasCatedra($datos)."</p>";
                 
             }else{
 
@@ -108,7 +108,9 @@
         ?>
 
         <br>
-        <button><a href='../../../ejercicio2/vista/form.php'>Enviar</a></button>
+        <button class="btn-volver"><a href='../../../ejercicio2/vista/form.php'>Enviar</a></button>
+
+      </div>
   </div>
 
 </div>
