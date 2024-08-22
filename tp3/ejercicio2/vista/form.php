@@ -93,21 +93,18 @@
   <div class="row  mt-5">
     <div class="col">
       <div id="contenedorEj1" class="text-center bg-body rounded">
-<form method="POST" action="../action/subirArchivo.php" enctype="multipart/form-data">
-  Ingresa el archivo: <input type="file" name="miArchivo" id="miArchivo" />
-  <button class="boton" type="submit" value="Subir archivo">Enviar</button>
-</form>
+      <form method="POST" action="../action/subirArchivo.php" enctype="multipart/form-data">
+        Ingresa el archivo: <input type="file" name="miArchivo" id="miArchivo" />
+        <button class="boton" type="submit" value="Subir archivo">Enviar</button>
+      </form>
       </div>
-
-
   </div>
 
   <div class="row  mt-5">
     <div class="col">
-      <img src="../../../imagenes/formTp3Ej2.png" alt="" class="img-codigo">
+      <img src="../../../imagenes/formTp3Ej2.png" alt="" class="img-codigo" alt="imagen de codigo">
     </div>
   </div>
-
 
 </div>
     
