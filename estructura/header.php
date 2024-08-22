@@ -30,7 +30,7 @@
             Practico 1
           </button>
           <ul class="dropdown-menu" role="menu">
-            <li><a class="dropdown-item" href="../../ejercicio1/vista/form.php" id="ejercicio1.php">ejercicio 1</a></li>
+            <li><a class="dropdown-item" href="../../" id="ejercicio1.php">ejercicio 1</a></li>
             <li><a class="dropdown-item" href="../../ejercicio2/vista/form.php">ejercicio 2</a></li>
             <li><a class="dropdown-item" href="../../ejercicio3/vista/form.php">ejercicio 3</a></li>
             <li><a class="dropdown-item" href="../../ejercicio4/vista/form.php">ejercicio 4</a></li>
@@ -57,7 +57,7 @@
           </button>
           <ul class="dropdown-menu" role="menu">
             <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
-            <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 2</a></li>
+            <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
           </ul>
         </div>
       </div>
