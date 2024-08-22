@@ -96,7 +96,7 @@
                
                   <div class="col" id="post">
                     
-                    <form action="formAction.php" method="post">
+                    <form action="action/formAction.php" method="post">
                         <h1 style="text-align: center;">POST</h1>
                         <label for="">Nombre :</label>
                         <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
@@ -112,7 +112,7 @@
                   </div>
                   
                   <div class="col" id="get">
-                    <form action="formAction.php" method="get">
+                    <form action="action/formAction.php" method="get">
                         <h1 style="text-align: center;">GET</h1>
                         <label for="">Nombre :</label>
                         <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">

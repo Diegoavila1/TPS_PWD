@@ -93,7 +93,7 @@
 
               <div id="contenedorEj6" class="bg-body rounded">
 
-              <form class="checkForm" action="formAction.php" method="get">
+              <form class="checkForm" action="action/formAction.php" method="get">
                     <div class="form-check"  style="margin-left: 7%;">
                       <input class="form-check-input" type="checkbox" name="futbol" id="futbol">
                       <label class="form-check-label" for="futbol">

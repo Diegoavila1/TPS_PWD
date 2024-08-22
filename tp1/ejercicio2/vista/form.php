@@ -16,7 +16,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css?v=2.3">
+    <link rel="stylesheet" href="../../../style.css?v=2.4">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -79,7 +79,7 @@
                 <div class="col">
                   <h1>Consigna: 2</h1>
                   <p>
-                  Ejercicio 2 – Crear un script php que guarde en diferentes variables su nombre, apellido, edad
+                  Crear un script php que guarde en diferentes variables su nombre, apellido, edad
                   y dirección y luego muestre en pantalla estos datos con letra mayúscula. 
                   Cuando ejecute la pagina dentro del navegador, observe el código fuente y analice las
                   diferencias entre el código escrito y el código que esta viendo. </p>

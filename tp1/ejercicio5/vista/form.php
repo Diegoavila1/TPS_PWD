@@ -80,7 +80,7 @@
     <div class="row ">
 
       <div id="content" class="col">
-        <!---->
+        
         <h1>Consigna: 5</h1>
         <p>
           Modificar el formulario del ejercicio anterior solicitando, tal que usando componentes
@@ -95,7 +95,7 @@
       <div class="col">
         <div id="contenedorEj1" class="bg-body rounded-top">
 
-          <form action="formAction.php" method="get" style="text-align: center;">
+          <form action="action/formAction.php" method="get" style="text-align: center;">
             <label for="">Ingrese su nombre:</label>
             <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="nombre" required>
             <label for="">Ingrese su apellido:</label>

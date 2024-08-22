@@ -83,11 +83,13 @@
 
   <div class="row  mt-5">
     <div class="col">
+      <div id="contenedorEj1" class="bg-body text-center rounded">
+          <form method="POST" action="action/subirArchivo.php" enctype="multipart/form-data">
+            Ingresa el archivo: <input type="file" name="miArchivo" id="miArchivo" />
+            <button class="btn-volver" type="submit" value="Subir archivo">Enviar</button>
+         </form>
+      </div>
 
-    <form method="POST" action="action/subirArchivo.php" enctype="multipart/form-data">
-      Ingresa el archivo: <input type="file" name="miArchivo" id="miArchivo" />
-      <input type="submit" value="Subir archivo" />
-    </form>
 
   </div>
 

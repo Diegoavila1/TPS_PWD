@@ -17,7 +17,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css?v=2.5">
+    <link rel="stylesheet" href="../../../../style.css?v=2.5">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -25,7 +25,7 @@
 <header class="navbar">
     <nav class="container-fluid d-flex rounded-bg shadow-lg">
     <div class=" d-flex justify-content-start ">
-      <a class="navbar-brand" href="../../../index.html">
+      <a class="navbar-brand" href="../../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
 
 
@@ -34,14 +34,14 @@
           Practico 1
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../../ejercicio1/vista/form.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio2/vista/form.php">ejercicio 2</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio3/vista/form.php">ejercicio 3</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio4/vista/form.php">ejercicio 4</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio5/vista/form.php">ejercicio 5</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio6/vista/form.php">ejercicio 6</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio7/vista/form.php">ejercicio 7</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio8/vista/form.php">ejercicio 8</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio2/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio3/vista/form.php">ejercicio 3</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio4/vista/form.php">ejercicio 4</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio5/vista/form.php">ejercicio 5</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio6/vista/form.php">ejercicio 6</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio7/vista/form.php">ejercicio 7</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio8/vista/form.php">ejercicio 8</a></li>
         </ul>
       </div>
 
@@ -50,8 +50,8 @@
           Practico 2
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../../../tp2/ejercicio3/vista/form.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../../../tp2/ejercicio4/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../../../tp2/ejercicio3/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../../tp2/ejercicio4/vista/form.php">ejercicio 2</a></li>
         </ul>
       </div>
 
@@ -60,15 +60,15 @@
           Practico 3
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
         </ul>
       </div>
       </div>
 
       <div class="justify-content-end m-1 p-2">
-        <img src="../../../imagenes/pedco.jpg" alt="">
-        <img src="../../../imagenes/githubLogo.png" alt="">
+        <img src="../../../../imagenes/pedco.jpg" alt="">
+        <img src="../../../../imagenes/githubLogo.png" alt="">
       </div>
 
     </nav>
@@ -122,8 +122,8 @@
         </div>
         <div class="respuesta">
             <?php
-            include "../control/persona.php";
-            include "../Utiles/funciones.php";
+            include "../../control/persona.php";
+            include "../../Utiles/funciones.php";
 
             if($_POST){
                 
@@ -154,13 +154,13 @@
         <div class="row  mt-5">
                 <div class="col" id="postfoto">
                   <h1>POST</h1>
-                  <img src="../../../imagenes/form3Post.png" alt="" class="img-codigo">
+                  <img src="../../../../imagenes/form3Post.png" alt="" class="img-codigo">
                 </div>
         </div>
         <div class="row  mt-5" id="getfoto">
                 <div class="col">
                   <h1>GET</h1>
-                  <img src="../../../imagenes/form3Get.png" alt="" class="img-codigo">
+                  <img src="../../../../imagenes/form3Get.png" alt="" class="img-codigo">
                 </div>
         </div>
         </div>

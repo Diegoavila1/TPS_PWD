@@ -92,13 +92,13 @@
 
   <div class="row  mt-5">
     <div class="col">
+      <div id="contenedorEj1" class="text-center bg-body rounded">
+          <form method="POST" action="../action/subirArchivo.php" enctype="multipart/form-data">
+            Ingresa el archivo: <input type="file" name="miArchivo" id="miArchivo" />
+            <button class="boton" type="submit" value="Subir archivo">Enviar</button>
+          </form>
+      </div>
 
-    <form action="formAction.php" method="get">
-    <label for="">Ingrese un numero:</label>
-    <input type="number" name="num" id="">
-    <br>
-    <button type="submit" class="boton">Enviar</button>
-    </form>
 
   </div>
 

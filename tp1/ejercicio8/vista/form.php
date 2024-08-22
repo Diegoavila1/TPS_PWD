@@ -86,7 +86,7 @@
                 <h1>Consigna: 8</h1>
                 <p>
                     La empresa de Cine Cinem@s tiene establecidas diferentes tarifas para las entradas, en
-                    función de la edad y de la condición de estudiante del cliente. Desea que sean los propios
+                    función de la edad y de la condición de estudiante del cliente.<br> Desea que sean los propios
                     clientes los que puedan calcular el valor de sus entradas a través de una página web.<br> Si
                     es estudiante o menor de 12 años el precio es de $160, si es estudiante y mayor o igual
                     de 12 años el precio es de $180, en cualquier otro caso el precio es de $300.<br> Diseñar un
@@ -100,7 +100,7 @@
             <div class="col">
               <div id="contenedorEj1" class="bg-body text-center rounded">
                 <h1>Cinem@s</h1>
-                <form action="formAction.php" method="post">
+                <form action="action/formAction.php" method="post">
                     <label for="">Ingrese la edad</label>
                     <input class="form-control"type="text" name="edad" placeholder="ejemplo : 15">
                     <select class="form-select" name="selects" id="" style=" width: 80%; margin: auto;">

@@ -12,7 +12,7 @@
         crossorigin="anonymous"></script>
     <!--BOOSTRAP-->
 
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../../style.css">
     <title>Tp 1 ejercicio 3</title>
 </head>
 
@@ -22,7 +22,7 @@
     <nav class="container-fluid d-flex rounded-bg shadow-lg">
 
     <div class=" d-flex justify-content-start ">
-      <a class="navbar-brand" href="../../../index.html">
+      <a class="navbar-brand" href="../../../../index.html">
         <img src="https://cdn-icons-png.flaticon.com/512/8216/8216616.png" alt=""></a>
 
 
@@ -31,14 +31,14 @@
           Practico 1
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../../ejercicio1/vista/form.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio2/vista/form.php">ejercicio 2</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio3/vista/form.php">ejercicio 3</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio4/vista/form.php">ejercicio 4</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio5/vista/form.php">ejercicio 5</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio6/vista/form.php">ejercicio 6</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio7/vista/form.php">ejercicio 7</a></li>
-          <li><a class="dropdown-item" href="../../ejercicio8/vista/form.php">ejercicio 8</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio2/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio3/vista/form.php">ejercicio 3</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio4/vista/form.php">ejercicio 4</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio5/vista/form.php">ejercicio 5</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio6/vista/form.php">ejercicio 6</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio7/vista/form.php">ejercicio 7</a></li>
+          <li><a class="dropdown-item" href="../../../ejercicio8/vista/form.php">ejercicio 8</a></li>
         </ul>
       </div>
 
@@ -47,8 +47,8 @@
           Practico 2
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../../../tp2/ejercicio3/vista/form.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../../../tp2/ejercicio4/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../../../tp2/ejercicio3/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../../tp2/ejercicio4/vista/form.php">ejercicio 2</a></li>
         </ul>
       </div>
 
@@ -57,14 +57,14 @@
           Practico 3
         </button>
         <ul class="dropdown-menu" role="menu">
-          <li><a class="dropdown-item" href="../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
-          <li><a class="dropdown-item" href="../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
+          <li><a class="dropdown-item" href="../../../../tp3/ejercicio1/vista/form.php">ejercicio 1</a></li>
+          <li><a class="dropdown-item" href="../../../../tp3/ejercicio2/vista/form.php">ejercicio 2</a></li>
         </ul>
       </div>
       </div>
       <div class="justify-content-end m-1 p-2">
-        <img src="../../../imagenes/pedco.jpg" alt="">
-        <img src="../../../imagenes/githubLogo.png" alt="">
+        <img src="../../../../imagenes/pedco.jpg" alt="">
+        <img src="../../../../imagenes/githubLogo.png" alt="">
       </div>
 
     </nav>
@@ -96,8 +96,8 @@
               <div id="contenedorEj1" class="bg-body rounded text-center">
               <?php
 
-                    include "../control/calculadora.php";
-                    include "../Utiles/funciones.php";
+                    include "../../control/calculadora.php";
+                    include "../../Utiles/funciones.php";
 
                     if($_GET){
 
@@ -109,7 +109,7 @@
 
                     }
                     ?>
-                    <button class="btn-volver" type="submit"><a href="../../ejercicio7/vista/form.php">Volver</a></button>
+                    <button class="btn-volver" type="submit"><a href="../../../ejercicio7/vista/form.php">Volver</a></button>
 
               </div>
             </div>
