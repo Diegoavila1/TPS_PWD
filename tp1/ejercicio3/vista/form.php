@@ -96,50 +96,36 @@
                
                   <div class="col" id="post">
                     
-<<<<<<< HEAD
-<form action="formAction.php" method="post">
-  <h1>POST</h1>
-    Nombre :<input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-    Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-    Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-    Direcion : <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-    <button type="submit" class="boton">Enviar</button>                    
-</form>
-=======
                     <form action="formAction.php" method="post">
-                        <h1>POST</h1>
-                        Nombre :<input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                        Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                        Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                        Direcion : <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-                        <button type="submit" class="boton" style="margin-left: 50%;">Enviar</button>                    
+                        <h1 style="text-align: center;">POST</h1>
+                        <label for="">Nombre :</label>
+                        <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+                        <label for="">Apellido : </label>
+                        <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+                        <label for="">Edad :</label>
+                        <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+                        <label for="">Direcion :</label>
+                        <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+                        <button type="submit" class="boton" >Enviar</button>                    
                     </form>
->>>>>>> 40e85fb876deb613e0c0f1370c93997538cef817
 
                   </div>
                   
                   <div class="col" id="get">
-<<<<<<< HEAD
-<form action="formAction.php" method="get">
-  <h1>GET</h1>
-    Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-    Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-    Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-    Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-    <button type="submit" class="boton">Enviar</button>
-</form>
-=======
                     <form action="formAction.php" method="get">
-                        <h1>GET</h1>
-                        Nombre : <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                        Apellido : <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                        Edad :<input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                        Direcion :  <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-                        <button type="submit" class="boton"  style="margin-left: 50%;">Enviar</button>
+                        <h1 style="text-align: center;">GET</h1>
+                        <label for="">Nombre :</label>
+                        <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+                        <label for="">Apellido :</label>
+                        <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+                        <label for="">Edad :</label>
+                        <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+                        <label for="">Direcion :</label>
+                        <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+                        <button type="submit" class="boton">Enviar</button>
                     </form>
->>>>>>> 40e85fb876deb613e0c0f1370c93997538cef817
                   </div>
-                </div>w
+                </div>
             </div>
         </div>
       <div class="fotosPostGet">

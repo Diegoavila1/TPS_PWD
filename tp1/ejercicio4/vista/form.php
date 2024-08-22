@@ -87,25 +87,25 @@
                 persona es mayor de edad o no; (si la edad es mayor o igual a 18).
                 Enviar los datos usando el método GET y luego probar de modificar los datos
                 directamente en la url para ver los dos posibles mensajes. </p>
-                            </div>
+      </div>
       </div>
 
         <div class="row mt-5">
-                
-                <div class="col" id="contenedorUno">
-                  
-                    <form action="formAction.php" class="formulario" method="get">
-                        <h1>GET</h1>
-                        <label for="">Nombre :</label>
+                <div class="col">
+                <div id="contenedorEj1" class="bg-body rounded">
+
+                    <form action="formAction.php" class="formulario" method="get" style="text-align:center;">
+                        <label for="">Ingrese su nombre :</label>
                         <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                        <label for="">Apellido :</label> 
+                        <label for="">Ingrese su apellido :</label> 
                         <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                        <label for="">Edad :</label>
+                        <label for="">Ingrese su edad :</label>
                         <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                        <label for="">Direcion :</label>  
+                        <label for="">Ingrese su direcion :</label>  
                         <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-                        <button type="submit" class="boton"  style="margin-left: 55%;">Enviar</button>
+                        <button type="submit" class="boton">Enviar</button>
                     </form>
+
                 </div>
             </div>
         </div>

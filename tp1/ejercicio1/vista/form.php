@@ -83,7 +83,7 @@
 
   <div class="row  mt-5">
     <div class="col">
-    <div id="contenedorEj1" class="bg-body oundedr">
+    <div id="contenedorEj1" class="bg-body rounded">
 
     <form action="action/action.php" method="get" style="  text-align: center;">
           <label for="num" class="">Ingrese un número:</label>

@@ -91,17 +91,9 @@
 </div>
 
     <div class="row  mt-5">
-    <div class="col" id="contenedor">
-        <?php
-        /*
-            <!--Modificar el formulario del ejercicio anterior solicitando, tal que usando componentes 
-            “radios buttons” se ingrese el nivel de estudio de la persona: 1-no tiene estudios, 2
-            estudios primarios, 3-estudios secundarios. Agregar el componente que crea más 
-            apropiado para solicitar el sexo. En la página que procesa el formulario mostrar además 
-            un mensaje que indique el tipo de estudios que posee y su sexo. -->
-            
-        */
-
+    <div class="col">
+      <div id="contenedorEj1" class="bg-body rounded">
+      <?php
         include "../control/persona.php";
         include "../Utiles/funciones.php";
 
@@ -109,12 +101,14 @@
 
             $datos = data_submitted();
             $objPersona = new persona;
-            echo $objPersona->nivelesEstudio($datos);
+            echo '<p class="text-center">'.$objPersona->nivelesEstudio($datos).'</p>';
             echo "<br>";
-            echo $objPersona->tipoGenero($datos);
+            echo '<p class="text-center">'.$objPersona->tipoGenero($datos).'</p>';
         }
         ?>
-        <button><a href="../../ejercicio5/vista/form.php">Volver</a></button> 
+        <button class="btn-volver"><a href="../../ejercicio5/vista/form.php">Volver</a></button> 
+      </div>
+
     </div>
     </div>
 
