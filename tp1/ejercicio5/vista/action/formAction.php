@@ -93,12 +93,12 @@
     <div class="row  mt-5">
     <div class="col">
       <div id="contenedorEj1" class="bg-body rounded">
+
       <?php
         include "../../control/persona.php";
         include "../../Utiles/funciones.php";
 
         if($_GET){
-
             $datos = data_submitted();
             $objPersona = new persona;
             echo '<p class="text-center">'.$objPersona->nivelesEstudio($datos).'</p>';
@@ -106,7 +106,9 @@
             echo '<p class="text-center">'.$objPersona->tipoGenero($datos).'</p>';
         }
         ?>
+        
         <button class="btn-volver"><a href="../../../ejercicio5/vista/form.php">Volver</a></button> 
+
       </div>
 
     </div>
