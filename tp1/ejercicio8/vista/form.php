@@ -18,7 +18,7 @@
     crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="../../../style.css?v=2.3">
-    <title>Tp 1 ejercicio 2</title>
+    <title>Tp 1 ejercicio 8</title>
 </head>
 <body style="font-family: arial">
 

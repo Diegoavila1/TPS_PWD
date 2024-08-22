@@ -13,7 +13,7 @@
     <!--BOOSTRAP-->
 
     <link rel="stylesheet" href="../../../style.css">
-    <title>Tp 1 ejercicio 3</title>
+    <title>Tp 1 ejercicio 7</title>
 </head>
 
 <body style="font-family: arial">
@@ -105,7 +105,6 @@
                         <option value="restar">Restar</option>
                         <option value="multiplicar">Multiplicar</option>
                     </select>
-                    
                     <br>
                     <button class="boton" type="submit">Volver</button>
                   

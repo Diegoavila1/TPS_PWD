@@ -93,19 +93,19 @@
         
         <div class="container mt-5 shadow p-3 mb-5 bg-body rounded bg-dark" style="max-width: 40%; justify-content: center;">
           <h1 class="mb-4">Member Login</h1>
-        <form id="form" action="verificaPass.php" method="post">
-            <div class="mb-3">
-            <label for="name" class="form-label">Nombre:</label>
-            <input type="text" id="name" name="name" class="form-control">
-            </div>
-            <div class="mb-3">
-            <label for="password" class="form-label">Contraseña:</label>
-            <input type="password" id="password" name="password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success"
-            style="width: 60%; margin: auto; display: flex; justify-content: center;">Login
-            </button>
-        </form>
+<form id="form" action="verificaPass.php" method="post">
+    <div class="mb-3">
+    <label for="name" class="form-label">Nombre:</label>
+    <input type="text" id="name" name="name" class="form-control">
+    </div>
+    <div class="mb-3">
+    <label for="password" class="form-label">Contraseña:</label>
+    <input type="password" id="password" name="password" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-success"
+    style="width: 60%; margin: auto; display: flex; justify-content: center;">Login
+    </button>
+</form>
         
         <div id="resultado"></div>
         </div>
