@@ -89,24 +89,29 @@
             </div>
         </div>
 
-        <div id="contenedorEj6"class="row mt-5">
+        <div class="row mt-5">
+
             <div class="col">
-            <?php
 
-                include "../control/calculadora.php";
-                include "../Utiles/funciones.php";
+              <div id="contenedorEj1" class="bg-body rounded text-center">
+              <?php
 
-                if($_GET){
+                    include "../control/calculadora.php";
+                    include "../Utiles/funciones.php";
 
-                    $datos = data_submitted();
+                    if($_GET){
 
-                    $objCalculadora = new calculadora();
-                    
-                    echo $objCalculadora->calcular($datos);
+                        $datos = data_submitted();
 
-                }
-                ?>
-                 <button><a href="../../ejercicio7/vista/form.php">Volver</a></button>
+                        $objCalculadora = new calculadora();
+                        
+                        echo "<p>".$objCalculadora->calcular($datos)."</p>";
+
+                    }
+                    ?>
+                    <button class="btn-volver" type="submit"><a href="../../ejercicio7/vista/form.php">Volver</a></button>
+
+              </div>
             </div>
 
 

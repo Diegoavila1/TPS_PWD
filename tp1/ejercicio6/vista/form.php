@@ -15,7 +15,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../style.css?v=1.1">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -78,7 +78,7 @@
 
          <div class="row ">
 
-            <div id="content" class="col">
+            <div class="col">
                 <h1>Consigna: 6</h1>
                 <p>
                     Ejercicio 6
@@ -89,56 +89,39 @@
         </div>
 
         <div class="row  mt-5">
-            <div id="contenedorEj6"class="col">
-<<<<<<< HEAD
-<form class="checkForm" action="formAction.php" method="get">
-  <div class="form-check">
-   <input class="form-check-input" type="checkbox" name="futbol" id="futbol">
-   <label class="form-check-label" for="futbol">Fútbol</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="checkbox" name="basket" id="basket">
-    <label class="form-check-label" for="basket">Basket</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="checkbox" name="tennis" id="tennis">
-    <label class="form-check-label" for="tennis">Tenis</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="checkbox" name="voley" id="voley">
-    <label class="form-check-label" for="voley">Vóley</label>
-  </div>
-  <button class="boton" type="submit">Enviar</button>
-</form>
-=======
-                <form class="checkForm" action="formAction.php" method="get">
-                    <div class="form-check">
+            <div class="col">
+
+              <div id="contenedorEj6" class="bg-body rounded">
+
+              <form class="checkForm" action="formAction.php" method="get">
+                    <div class="form-check"  style="margin-left: 7%;">
                       <input class="form-check-input" type="checkbox" name="futbol" id="futbol">
                       <label class="form-check-label" for="futbol">
                         Fútbol
                       </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check" style="margin-left: 7%;">
                       <input class="form-check-input" type="checkbox" name="basket" id="basket">
                       <label class="form-check-label" for="basket">
                         Basket
                       </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check"  style="margin-left: 7%;">
                       <input class="form-check-input" type="checkbox" name="tennis" id="tennis">
                       <label class="form-check-label" for="tennis">
                         Tenis
                       </label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check"  style="margin-left: 7%;">
                       <input class="form-check-input" type="checkbox" name="voley" id="voley">
                       <label class="form-check-label" for="voley">
                         Vóley
                       </label>
                     </div>
-                    <button class="boton" type="submit" >Enviar</button>
+                    <button class="boton" type="submit"  style="margin-left: 6%;">Enviar</button>
                 </form>
->>>>>>> 40e85fb876deb613e0c0f1370c93997538cef817
+
+              </div>
             </div>
         </div>
 

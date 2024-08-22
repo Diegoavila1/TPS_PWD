@@ -97,13 +97,13 @@
 
           <form action="formAction.php" method="get" style="text-align: center;">
             <label for="">Ingrese su nombre:</label>
-            <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block">
+            <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="nombre" required>
             <label for="">Ingrese su apellido:</label>
-            <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block">
+            <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="apellido" required>
             <label for="">Ingrese su edad</label>
-            <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block">
+            <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="edad" required>
             <label for="">Ingrese su direccion:</label>
-            <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block">
+            <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="direccion" required>
           
 
         </div>
@@ -113,25 +113,25 @@
         <ul class="list-unstyled">
             <li>
               <div class="form-check" style="margin-left:10%">
-                <input class="form-check-input" type="radio" name="nivelEstudio" id="sinEstudios" value="sinEstudios">
+                <input class="form-check-input" type="radio" name="nivelEstudio" id="sinEstudios" value="sinEstudios" required>
                 <label class="form-check-label" for="sinEstudios" style="margin-top: 0;">No tiene estudios </label>
               </div>
             </li>
             <li>
               <div class="form-check" style="margin-left:10%">
-                <input class="form-check-input" type="radio" name="nivelEstudio" id="estPrimario" value="estPrimario">
+                <input class="form-check-input" type="radio" name="nivelEstudio" id="estPrimario" value="estPrimario" required>
                 <label class="form-check-label" for="estPrimario" style="margin-top: 0;">Estudios primarios</label>
               </div>
             </li>
             <li>
               <div class="form-check" style="margin-left:10%">
-                <input class="form-check-input" type="radio" name="nivelEstudio" id="estSecundario" value="estSecundario">
+                <input class="form-check-input" type="radio" name="nivelEstudio" id="estSecundario" value="estSecundario" required>
                 <label class="form-check-label" for="estSecundario" style="margin-top: 0;">Estudios secundarios</label>
               </div>
             </li>
           </ul>
 
-          <select class="form-select ancho-input" name="genero" style="margin: auto;">
+          <select class="form-select ancho-input" name="genero" style="margin: auto;" required>
             <option value="Femenino">Femenino</option>
             <option value="Masculino">Masculino</option>
           </select>

@@ -95,24 +95,27 @@
             </div>
         </div>
 
-        <div id="contenedorEj6"class="row  mt-5 text-center">
+        <div class="row  mt-5 text-center">
             <div class="col">
-            <?php
+              <div id="contenedorEj1" class="bg-body text-center rounded">
+              <?php
 
-                include "../control/cinemos.php";
-                include "../Utiles/funciones.php";
+                    include "../control/cinemos.php";
+                    include "../Utiles/funciones.php";
 
-                if($_POST){
+                    if($_POST){
 
 
-                    $datos = data_submitted();
+                        $datos = data_submitted();
 
-                    $objCinemos = new cinemos();
-                    echo $objCinemos->calcularTarifa($datos);
-                }
-                ?>
-                <br>
-                <button class="btn-volver"><a href="../../ejercicio8/vista/form.php">Volver</a></button>
+                        $objCinemos = new cinemos();
+                        echo $objCinemos->calcularTarifa($datos);
+                    }
+                    ?>
+                    <br>
+                    <button class="btn-volver"><a href="../../ejercicio8/vista/form.php">Volver</a></button>
+              </div>
+
             </div>
         </div>
         </div>

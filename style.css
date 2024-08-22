@@ -70,7 +70,7 @@ p , label {
 #contenedorEj6 {
     display: flex;
     flex-direction: column; /* Organiza los elementos en una columna */
-    max-width: 400px; /* Ajusta el ancho máximo del contenedor */
+    max-width: 130px; /* Ajusta el ancho máximo del contenedor */
     margin: auto; /* Centra el contenedor en la página */
   }
 

@@ -17,7 +17,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css?v=2.2">
+    <link rel="stylesheet" href="../../../style.css?v=2.3">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -96,44 +96,24 @@
             </div>
         </div>
 
-        <div id="contenedorEj6"class="row  mt-5">
+        <div class="row  mt-5">
             <div class="col">
-<<<<<<< HEAD
-                
-<form action="formAction.php" method="post">
-  <h1>Resolucion:</h1>
-  <h1>Cinem@s</h1>
-  <label for="">Ingrese la edad</label>
-  <br>
-  <input class="form-control ancho-input"type="text" name="edad" id="">
-  <br>
-  <select class="form-select ancho-input" name="selects" id="">
-      <option value="ninguno">Ninguno</option>
-      <option value="estudiante">Estudiante</option>
-  </select>
-  <br>
-  <input class="boton" type="submit" name="" id="">
-  <input class="botonDos" type="reset" name="" id="">
-</form>
-=======
-                <h1>Resolucion:</h1>
+              <div id="contenedorEj1" class="bg-body text-center rounded">
                 <h1>Cinem@s</h1>
                 <form action="formAction.php" method="post">
-
                     <label for="">Ingrese la edad</label>
-                    <br>
-                    <input class="form-control ancho-input"type="text" name="edad">
-                    <br>
-                    <select class="form-select ancho-input" name="selects" id="">
+                    <input class="form-control"type="text" name="edad" placeholder="ejemplo : 15">
+                    <select class="form-select" name="selects" id="" style=" width: 80%; margin: auto;">
                         <option value="ninguno">Ninguno</option>
                         <option value="estudiante">Estudiante</option>
                     </select>
                     <br>
-                    <input class="boton" type="submit" name="" id="">
-                    <input class="botonDos" type="reset" name="" id="">
+                    <button class="boton" type="submit" name="" id="">Enviar</button>
+                    <button class="botonDos" type="reset" name="" id="">Restablecer</button>
 
                 </form>
->>>>>>> 40e85fb876deb613e0c0f1370c93997538cef817
+              </div>
+
             </div>
         </div>
 

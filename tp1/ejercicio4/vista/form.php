@@ -96,13 +96,13 @@
 
                     <form action="formAction.php" class="formulario" method="get" style="text-align:center;">
                         <label for="">Ingrese su nombre :</label>
-                        <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
+                        <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre" required>
                         <label for="">Ingrese su apellido :</label> 
-                        <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
+                        <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido" required>
                         <label for="">Ingrese su edad :</label>
-                        <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
+                        <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad" required>
                         <label for="">Ingrese su direcion :</label>  
-                        <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
+                        <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion" required>
                         <button type="submit" class="boton">Enviar</button>
                     </form>
 

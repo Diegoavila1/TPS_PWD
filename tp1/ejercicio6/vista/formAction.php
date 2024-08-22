@@ -14,7 +14,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../style.css?v=1.1">
     <title>Tp 1 ejercicio 2</title>
 </head>
 <body style="font-family: arial">
@@ -88,23 +88,28 @@
         </div>
 
         <div class="row  mt-5">
-            <div id="contenedorEj6"class="col">
-            <?php
+            <div class="col">
+              <div id="contenedorEj1" class="bg-body rounded text-center">
+              <?php
 
-                include "../control/deportes.php";
+                  include "../control/deportes.php";
 
-                if($_GET){
+                  if($_GET){
 
-                    include "../Utiles/funciones.php";
-                    $datos = data_submitted();
-                    $objDeporte = new deportes;
+                      include "../Utiles/funciones.php";
+                      $datos = data_submitted();
+                      $objDeporte = new deportes;
 
-                    echo $objDeporte->deporteRealizado($datos);
-                } 
+                      echo $objDeporte->deporteRealizado($datos);
+                  } 
 
-                ?>    
-                <br>
-                <button><a href="../../ejercicio6/vista/form.php">Volver</a></button>
+                  ?>    
+                  <br>
+                  <button class="btn-volver"><a href="../../ejercicio6/vista/form.php">Volver</a></button>
+
+                  </div>
+              </div>
+
             </div>
         </div>
       </div> 

@@ -89,31 +89,31 @@
             </div>
         </div>
 
-        <div id="contenedorEj6"class="row mt-5">
+        <div class="row mt-5">
             <div class="col">
-                <h1>Resolucion:</h1>
+              
+            <div id="contenedorEj1" class="bg-body rounded">
+                
+               <form action="formAction.php" method="get" style="text-align: center;">
 
-                <form action="formAction.php" method="get">
-                    
                     <label for="">Ingrese un numero X</label>
-                    
-                    <input class="form-control ancho-input" type="text" name="numUno" id="">
-                    <br>
+                    <input class="form-control ancho-input" type="number" name="numUno" id="" placeholder="Ejemplo : 2" required>
                     <label for="">Ingrese un numero Y</label>
-                    <br>
-                    <input class="form-control ancho-input" type="text" name="numDos" id="">
-                    <br>
-
-                    <select class="form-select ancho-input" name="selects" id="">
+                    <input class="form-control ancho-input" type="number" name="numDos" id="" placeholder="Ejemplo : 5" required>
+                    <select class="form-select ancho-input" name="selects" style="margin: auto;">
                         <option value="sumar">Sumar</option>
                         <option value="restar">Restar</option>
                         <option value="multiplicar">Multiplicar</option>
                     </select>
                     
                     <br>
-                    <input class="boton" type="submit" name="" id="">
+                    <button class="boton" type="submit">Volver</button>
                   
                 </form>
+
+              </div>
+              </div>
+
 
             </div>
         </div>
