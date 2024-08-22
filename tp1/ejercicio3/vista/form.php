@@ -92,35 +92,33 @@
 
         <div class="row mt-5">
                 
-                <div class="row" id="contenedor">
+                <div class="row" id="contenedor"  style="width: 3000px;" >
                
                   <div class="col" id="post">
-                    
-                    <form action="action/formAction.php" method="post">
+                    <form action="action/formAction.php" method="post" id="formulario1">
                         <h1 style="text-align: center;">POST</h1>
-                        <label for="">Nombre :</label>
+                        <label for="">Nombre :</label><br>
                         <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                        <label for="">Apellido : </label>
+                        <label for="">Apellido : </label><br>
                         <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                        <label for="">Edad :</label>
+                        <label for="">Edad :</label><br>
                         <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                        <label for="">Direcion :</label>
+                        <label for="">Direcion :</label><br>
                         <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
-                        <button type="submit" class="boton" >Enviar</button>                    
+                        <button type="submit" class="boton" >Enviar</button>
                     </form>
-
                   </div>
                   
                   <div class="col" id="get">
-                    <form action="action/formAction.php" method="get">
+                    <form action="action/formAction.php" method="get" id="formulario2">
                         <h1 style="text-align: center;">GET</h1>
-                        <label for="">Nombre :</label>
+                        <label for="">Nombre :</label><br>
                         <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre">
-                        <label for="">Apellido :</label>
+                        <label for="">Apellido :</label><br>
                         <input class="form-control ancho-input" type="text" name="apellido" id="" style="display:block" placeholder="Apellido">
-                        <label for="">Edad :</label>
+                        <label for="">Edad :</label><br>
                         <input class="form-control ancho-input" type="number" name="edad" id="" style="display:block" placeholder="Edad">
-                        <label for="">Direcion :</label>
+                        <label for="">Direcion :</label><br>
                         <input class="form-control ancho-input" type="text" name="direccion" id="" style="display:block" placeholder="Direccion">
                         <button type="submit" class="boton">Enviar</button>
                     </form>
@@ -168,6 +166,9 @@
 
 </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="../vista/assets/validar.js"></script>
 
 </body>
 </html>

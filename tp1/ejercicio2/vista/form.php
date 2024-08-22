@@ -79,10 +79,12 @@
                 <div class="col">
                   <h1>Consigna: 2</h1>
                   <p>
-                  Crear un script php que guarde en diferentes variables su nombre, apellido, edad
-                  y dirección y luego muestre en pantalla estos datos con letra mayúscula. 
-                  Cuando ejecute la pagina dentro del navegador, observe el código fuente y analice las
-                  diferencias entre el código escrito y el código que esta viendo. </p>
+                  Crear una página php que contenga un formulario HTML que permita ingresar las horas
+de cursada, de la materia Programación Web Dinámica, por cada día de la semana.
+Enviar los datos del formulario por el método Get a otra página php que los reciba y
+complete un array unidimensional. Visualizar por pantalla la cantidad total de horas que
+se cursan por semana.
+ </p>
                 </div>
               </div>
             
@@ -90,7 +92,7 @@
                 <div class="col">
                   <div id="contenedorEj1" class="bg-body rounded">
 
-                      <form action="action/formAction.php" method="get" style="  text-align: center;">
+                      <form action="action/formAction.php" method="get" style="  text-align: center;" id="formulario">
                       <label for="">Ingrese las horas de cursada de jueves:</label>
                       <br> 
                       <input class="form-control ancho-input" type="" name="jueves" id=""  placeholder="Ejemplo : 2">
@@ -137,5 +139,8 @@
 </div>
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="../vista/assets/validar.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
+
 $.validator.addMethod("soloLetras", function(value, element){
     return /^[a-zA-Z]+$/.test(value);
 }, "El nombre solo puede contener letras.");
-
 
 $("#formularioPelicula").validate({
     rules: {
@@ -50,13 +50,13 @@ $("#formularioPelicula").validate({
     messages: {
         titulo: {
             required: "<div class='msj-error'>Por favor, ingrese su nombre.</div>", 
-            minlength: "<div class='msj-error'>El nombre debe tener al menos 3 caracteres.</div>",
-            onlyLetters: "<div class='msj-error'>El nombre solo puede contener letras.</div>",
-            soloLetras: "<div class='msj-error'>El nombre solo puede contener letras.</div>"
+            minlength: "<div class='msj-error'>El nombre debe tener al menos 3 caracteres.💅</div>",
+            onlyLetters: "<div class='msj-error'>El nombre solo puede contener letras. 💅</div>",
+            soloLetras: "<div class='msj-error'>El nombre solo puede contener letras. 💅</div>"
         },
         director: {
-            required: "<div class='msj-error'>Por favor, ingrese su nombre.</div>", 
-            minlength: "<div class='msj-error'>El nombre debe tener al menos 3 caracteres.</div>",
+            required: "<div class='msj-error'>Por favor, ingrese su nombre. 🫦</div>", 
+            minlength: "<div class='msj-error'>El nombre debe tener al menos 3 caracteres. 💅</div>",
             soloLetras: "<div class='msj-error'>El nombre solo puede contener letras.</div>"
         },
         produccion: {

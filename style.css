@@ -107,6 +107,7 @@ label {
 #contenedor {
    display:flex;
    justify-content: center;
+   
 }
 
 #post, #get {
@@ -216,14 +217,8 @@ label {
 }
 
 .msj-error {
-    color: rgba(255, 54, 54, 0.535);
-    
-
-
+    color: rgb(255, 0, 0); 
 }
-
-
-
-
-
-
+label {
+    display: block;
+}

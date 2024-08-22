@@ -86,7 +86,7 @@
 
     <form action="action/action.php" method="get" style="  text-align: center;">
           <label for="num" class="">Ingrese un número:</label>
-          <input type="number" class="form-control ancho-input" name="num" id="num" placeholder="Escribe un número">
+          <input type="number" class="form-control ancho-input" name="num" id="num" placeholder="Escribe un número" required>
           <button type="submit" class="boton">Enviar</button>
     </form>
     </div>

@@ -86,7 +86,7 @@
       <div id="contenedorEj1" class="bg-body text-center rounded">
           <form method="POST" action="action/subirArchivo.php" enctype="multipart/form-data">
             Ingresa el archivo: <input type="file" name="miArchivo" id="miArchivo" />
-            <button class="btn-volver" type="submit" value="Subir archivo">Enviar</button>
+            <button class="boton" type="submit" value="Subir archivo">Enviar</button>
          </form>
       </div>
 
