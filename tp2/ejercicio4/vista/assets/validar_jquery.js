@@ -1,6 +1,3 @@
-alert("Hola");
-
-
 $.validator.addMethod("soloLetras", function(value, element){
     return /^[a-zA-Z]+$/.test(value);
 }, "El nombre solo puede contener letras.");
