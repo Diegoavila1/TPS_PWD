@@ -125,7 +125,7 @@
     <li>Diego Rios</li>
     <li>Miguel Soto</li>
     <li>Juan Cruz Geslowski </li>
-    <li>Barquito </li>
+    <li>Valentin Bustos Villar </li>
 
   </ul>
 </div>
