@@ -93,7 +93,7 @@
 
               <div id="contenedorEj6" class="bg-body rounded">
 
-              <form class="checkForm" action="action/formAction.php" method="get">
+              <form class="checkForm" action="action/formAction.php" method="get" id="formulario">
                     <div class="form-check"  style="margin-left: 7%;">
                       <input class="form-check-input" type="checkbox" name="futbol" id="futbol">
                       <label class="form-check-label" for="futbol">
@@ -120,7 +120,6 @@
                     </div>
                     <button class="boton" type="submit"  style="margin-left: 6%;">Enviar</button>
                 </form>
-
               </div>
             </div>
         </div>
@@ -157,6 +156,10 @@
 
 </div>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+<script src="assets/validatorJquery.js"></script>
 
 </body>
 </html>

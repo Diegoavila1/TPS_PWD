@@ -95,7 +95,7 @@
       <div class="col">
         <div id="contenedorEj1" class="bg-body rounded-top">
 
-          <form action="action/formAction.php" method="get" style="text-align: center;">
+          <form action="action/formAction.php" method="get" style="text-align: center;" id="formulario">
             <label for="">Ingrese su nombre:</label>
             <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="nombre" required>
             <label for="">Ingrese su apellido:</label>
@@ -113,7 +113,7 @@
         <ul class="list-unstyled">
             <li>
               <div class="form-check" style="margin-left:10%">
-                <input class="form-check-input" type="radio" name="nivelEstudio" id="sinEstudios" value="sinEstudios" required>
+                <input class="form-check-input" checked type="radio" name="nivelEstudio" id="sinEstudios" value="sinEstudios" required>
                 <label class="form-check-label" for="sinEstudios" style="margin-top: 0;">No tiene estudios </label>
               </div>
             </li>
@@ -131,9 +131,9 @@
             </li>
           </ul>
 
-          <select class="form-select ancho-input" name="genero" style="margin: auto;" required>
-            <option value="Femenino">Femenino</option>
+          <select class="form-select ancho-input" name="genero" style="margin: auto;" id="genero" required>
             <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
           </select>
           <br>
           <button class="boton" type="submit">Enviar</button>
@@ -178,6 +178,10 @@
 
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+  <script src="assets/validatorJquery.js"></script>
 
 </body>
 

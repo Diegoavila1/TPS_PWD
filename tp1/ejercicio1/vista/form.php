@@ -84,9 +84,9 @@
     <div class="col">
     <div id="contenedorEj1" class="bg-body rounded">
 
-    <form action="action/action.php" method="get" style="  text-align: center;">
+    <form action="action/action.php" method="get" style="text-align:center;" id="formulario">
           <label for="num" class="">Ingrese un número:</label>
-          <input type="number" class="form-control ancho-input" name="num" id="num" placeholder="Escribe un número" required>
+          <input type="number" class="form-control ancho-input" name="numero" id="numero" placeholder="Escribe un número">
           <button type="submit" class="boton">Enviar</button>
     </form>
     </div>
@@ -123,7 +123,9 @@
 </div>
 
 </footer>
-
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+  <script src="assets/validatorJquery.js"></script>
 </body>
 
 </html>

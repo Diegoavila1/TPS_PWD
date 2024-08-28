@@ -94,7 +94,7 @@
               
             <div id="contenedorEj1" class="bg-body rounded">
                 
-               <form action="formAction.php" method="get" style="text-align: center;">
+               <form action="action/formAction.php" method="get" style="text-align: center;" id="formulario">
 
                     <label for="">Ingrese un numero X</label>
                     <input class="form-control ancho-input" type="number" name="numUno" id="" placeholder="Ejemplo : 2" required>
@@ -106,7 +106,7 @@
                         <option value="multiplicar">Multiplicar</option>
                     </select>
                     <br>
-                    <button class="boton" type="submit">Volver</button>
+                    <button class="boton" type="submit">Calcular</button>
                   
                 </form>
 
@@ -146,6 +146,9 @@
 
 </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+<script src="assets/validatorJquery.js"></script>
 
 </body>
 

@@ -94,7 +94,7 @@
                 <div class="col">
                 <div id="contenedorEj1" class="bg-body rounded">
 
-                    <form action="formAction.php" class="formulario" method="get" style="text-align:center;">
+                    <form action="formAction.php" class="formulario" method="get" style="text-align:center;" id="formulario">
                         <label for="">Ingrese su nombre :</label>
                         <input class="form-control ancho-input" type="text" name="nombre" id="" style="display:block" placeholder="Nombre" required>
                         <label for="">Ingrese su apellido :</label> 
@@ -142,6 +142,8 @@
 
 </div>
 </footer>
-
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+  <script src="assets/validatorJquery.js"></script>
 </body>
 </html>

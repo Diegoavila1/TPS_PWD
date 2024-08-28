@@ -107,7 +107,7 @@
                   <br>
                   <button class="btn-volver"><a href="../../../ejercicio6/vista/form.php">Volver</a></button>
 
-                  </div>
+                </div>
               </div>
 
             </div>

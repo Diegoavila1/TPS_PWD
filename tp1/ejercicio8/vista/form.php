@@ -100,11 +100,11 @@
             <div class="col">
               <div id="contenedorEj1" class="bg-body text-center rounded">
                 <h1>Cinem@s</h1>
-                <form action="action/formAction.php" method="post">
+                <form action="action/formAction.php" method="post" id="formulario">
                     <label for="">Ingrese la edad</label>
-                    <input class="form-control"type="text" name="edad" placeholder="ejemplo : 15">
-                    <select class="form-select" name="selects" id="" style=" width: 80%; margin: auto;">
-                        <option value="ninguno">Ninguno</option>
+                    <input class="form-control"type="number" name="edad" placeholder="ejemplo : 15">
+                    <select class="form-select" name="selects" id="estudiante" style=" width: 80%; margin: auto;">
+                        <option value="No estudiante">No estudiante</option>
                         <option value="estudiante">Estudiante</option>
                     </select>
                     <br>
@@ -147,6 +147,8 @@
   </div>
 
 </div>
-
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+<script src="assets/validatorJquery.js"></script>
 </body>
 </html>

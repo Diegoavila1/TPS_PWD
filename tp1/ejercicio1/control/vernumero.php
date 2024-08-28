@@ -5,7 +5,7 @@ class verNumero{
     public function __construct() {
     }
     public function numPositivoNegativo($datos){
-        $num = $datos["num"];
+        $num = $datos["numero"];
         if($num > 0){
             $mensaje = "El numero $num es positivo";
         }elseif($num < 0){
